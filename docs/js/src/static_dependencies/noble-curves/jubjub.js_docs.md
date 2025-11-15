@@ -1,0 +1,137 @@
+# Documentation: js/src/static_dependencies/noble-curves/jubjub.js
+
+## File Metadata
+
+- **Path**: `js/src/static_dependencies/noble-curves/jubjub.js`
+- **Size**: 2,383 bytes
+- **Lines**: 54
+- **Type**: JavaScript
+- **Extension**: .js
+
+
+## Original Source Code
+
+```javascript
+/*! noble-curves - MIT License (c) 2022 Paul Miller (paulmillr.com) */
+import { sha512 } from '../noble-hashes/sha512.js';
+import { concatBytes, randomBytes, utf8ToBytes } from '../noble-hashes/utils.js';
+import { twistedEdwards } from './abstract/edwards.js';
+import { blake2s } from '../noble-hashes/blake2s.js';
+import { Fp } from './abstract/modular.js';
+/**
+ * jubjub Twisted Edwards curve.
+ * https://neuromancer.sk/std/other/JubJub
+ * jubjub does not use EdDSA, so `hash`/sha512 params are passed because interface expects them.
+ */
+export const jubjub = twistedEdwards({
+    // Params: a, d
+    a: BigInt('0x73eda753299d7d483339d80809a1d80553bda402fffe5bfeffffffff00000000'),
+    d: BigInt('0x2a9318e74bfa2b48f5fd9207e6bd7fd4292d7f6d37579d2601065fd6d6343eb1'),
+    // Finite field 𝔽p over which we'll do calculations
+    // Same value as bls12-381 Fr (not Fp)
+    Fp: Fp(BigInt('0x73eda753299d7d483339d80809a1d80553bda402fffe5bfeffffffff00000001')),
+    // Subgroup order: how many points curve has
+    n: BigInt('0xe7db4ea6533afa906673b0101343b00a6682093ccc81082d0970e5ed6f72cb7'),
+    // Cofactor
+    h: BigInt(8),
+    // Base point (x, y) aka generator point
+    Gx: BigInt('0x11dafe5d23e1218086a365b99fbf3d3be72f6afd7d1f72623e6b071492d1122b'),
+    Gy: BigInt('0x1d523cf1ddab1a1793132e78c866c0c33e26ba5cc220fed7cc3f870e59d292aa'),
+    hash: sha512,
+    randomBytes,
+});
+const GH_FIRST_BLOCK = utf8ToBytes('096b36a5804bfacef1691e173c366a47ff5ba84a44f26ddd7e8d9f79d5b42df0');
+// Returns point at JubJub curve which is prime order and not zero
+export function groupHash(tag, personalization) {
+    const h = blake2s.create({ personalization, dkLen: 32 });
+    h.update(GH_FIRST_BLOCK);
+    h.update(tag);
+    // NOTE: returns ExtendedPoint, in case it will be multiplied later
+    let p = jubjub.ExtendedPoint.fromHex(h.digest());
+    // NOTE: cannot replace with isSmallOrder, returns Point*8
+    p = p.multiply(jubjub.CURVE.h);
+    if (p.equals(jubjub.ExtendedPoint.ZERO))
+        throw new Error('Point has small order');
+    return p;
+}
+export function findGroupHash(m, personalization) {
+    const tag = concatBytes(m, new Uint8Array([0]));
+    for (let i = 0; i < 256; i++) {
+        tag[tag.length - 1] = i;
+        try {
+            return groupHash(tag, personalization);
+        }
+        catch (e) { }
+    }
+    throw new Error('findGroupHash tag overflow');
+}
+
+```
+
+## High-Level Overview
+
+This is a JavaScript file located at `js/src/static_dependencies/noble-curves/jubjub.js`.
+
+**Functions defined**: findGroupHash, groupHash
+
+**Dependencies**: This file imports other modules.
+
+**Documentation**: Contains inline documentation/comments.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 54
+- Code lines: 44
+- Comment lines: 15
+- Blank lines: -5
+
+### Main Components
+
+**Functions** (2):
+- `findGroupHash()`
+- `groupHash()`
+
+**Constants** (1):
+- `GH_FIRST_BLOCK`
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+- `../noble-hashes/blake2s.js` (imported)
+- `./abstract/edwards.js` (imported)
+- `./abstract/modular.js` (imported)
+- `../noble-hashes/sha512.js` (imported)
+- `../noble-hashes/utils.js` (imported)
+- `../noble-hashes/blake2s.js` (referenced)
+- `./abstract/edwards.js` (referenced)
+- `./abstract/modular.js` (referenced)
+- `../noble-hashes/sha512.js` (referenced)
+- `../noble-hashes/utils.js` (referenced)
+
+
+
+## Testing & Execution
+
+**To execute this JavaScript file:**
+
+```bash
+node js/src/static_dependencies/noble-curves/jubjub.js
+```
+

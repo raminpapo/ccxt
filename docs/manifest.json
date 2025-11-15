@@ -1,0 +1,16 @@
+{
+  "repo_source": "/home/user/ccxt",
+  "repo_fingerprint": "ee2fb0e5271f3585ab431291fecb1d1fbbd205ed",
+  "generated_at": "2025-11-15T20:45:55.233759",
+  "generator_version": "1.0.0",
+  "files_scanned": 7827,
+  "text_files": 7814,
+  "binary_files": 13,
+  "large_files": 0,
+  "ignored_files": 0,
+  "docs_created": 17348,
+  "bytes_written": 317917433,
+  "words_estimated": 27009057,
+  "errors": 0,
+  "error_list": []
+}

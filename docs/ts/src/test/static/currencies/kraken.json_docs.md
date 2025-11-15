@@ -1,0 +1,420 @@
+# Documentation: ts/src/test/static/currencies/kraken.json
+
+## File Metadata
+
+- **Path**: `ts/src/test/static/currencies/kraken.json`
+- **Size**: 8,698 bytes
+- **Lines**: 362
+- **Type**: JSON
+- **Extension**: .json
+
+
+## Original Source Code
+
+```json
+{
+    "BTC": {
+        "info": {
+            "aclass": "currency",
+            "altname": "XBT",
+            "decimals": "10",
+            "display_decimals": "5",
+            "collateral_value": "0.99",
+            "status": "enabled",
+            "margin_rate": "0.01"
+        },
+        "id": "XXBT",
+        "numericId": null,
+        "code": "BTC",
+        "precision": 1e-10,
+        "type": "crypto",
+        "name": "XBT",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    "USDT": {
+        "info": {
+            "aclass": "currency",
+            "altname": "USDT",
+            "decimals": "8",
+            "display_decimals": "4",
+            "collateral_value": "0.995",
+            "status": "enabled",
+            "margin_rate": "0.02"
+        },
+        "id": "USDT",
+        "numericId": null,
+        "code": "USDT",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "USDT",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    "EUR": {
+        "info": {
+            "aclass": "currency",
+            "altname": "EUR",
+            "decimals": "4",
+            "display_decimals": "2",
+            "collateral_value": "1.0",
+            "status": "enabled",
+            "margin_rate": "0.025"
+        },
+        "id": "ZEUR",
+        "numericId": null,
+        "code": "EUR",
+        "precision": 0.0001,
+        "type": "crypto",
+        "name": "EUR",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    "USD": {
+        "info": {
+            "aclass": "currency",
+            "altname": "USD",
+            "decimals": "4",
+            "display_decimals": "2",
+            "collateral_value": "1.0",
+            "status": "enabled",
+            "margin_rate": "0.034"
+        },
+        "id": "ZUSD",
+        "numericId": null,
+        "code": "USD",
+        "precision": 0.0001,
+        "type": "crypto",
+        "name": "USD",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    "LTC": {
+        "info": {
+            "aclass": "currency",
+            "altname": "LTC",
+            "decimals": "10",
+            "display_decimals": "5",
+            "collateral_value": "0.925",
+            "status": "enabled",
+            "margin_rate": "0.02"
+        },
+        "id": "XLTC",
+        "numericId": null,
+        "code": "LTC",
+        "precision": 1e-10,
+        "type": "crypto",
+        "name": "LTC",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    "ETH": {
+        "info": {
+            "aclass": "currency",
+            "altname": "ETH",
+            "decimals": "10",
+            "display_decimals": "5",
+            "collateral_value": "0.99",
+            "status": "enabled",
+            "margin_rate": "0.02"
+        },
+        "id": "XETH",
+        "numericId": null,
+        "code": "ETH",
+        "precision": 1e-10,
+        "type": "crypto",
+        "name": "ETH",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    "ADA": {
+        "info": {
+            "aclass": "currency",
+            "altname": "ADA",
+            "decimals": "8",
+            "display_decimals": "6",
+            "collateral_value": "0.925",
+            "status": "enabled",
+            "margin_rate": "0.02"
+        },
+        "id": "ADA",
+        "numericId": null,
+        "code": "ADA",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "ADA",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    "XRP": {
+        "info": {
+            "aclass": "currency",
+            "altname": "XRP",
+            "decimals": "8",
+            "display_decimals": "5",
+            "collateral_value": "0.95",
+            "status": "enabled",
+            "margin_rate": "0.02"
+        },
+        "id": "XXRP",
+        "numericId": null,
+        "code": "XRP",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "XRP",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    "USDC": {
+        "info": {
+            "aclass": "currency",
+            "altname": "USDC",
+            "decimals": "8",
+            "display_decimals": "4",
+            "collateral_value": "0.995",
+            "status": "enabled",
+            "margin_rate": "0.02"
+        },
+        "id": "USDC",
+        "numericId": null,
+        "code": "USDC",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "USDC",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    "MATIC": {
+        "info": {
+            "aclass": "currency",
+            "altname": "MATIC",
+            "decimals": "10",
+            "display_decimals": "5",
+            "status": "enabled",
+            "margin_rate": "0.02"
+        },
+        "id": "MATIC",
+        "numericId": null,
+        "code": "MATIC",
+        "precision": 1e-10,
+        "type": "crypto",
+        "name": "MATIC",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    },
+    "ALPHA": {
+        "info": {
+            "aclass": "currency",
+            "altname": "ALPHA",
+            "decimals": "5",
+            "display_decimals": "3",
+            "status": "enabled"
+        },
+        "id": "ALPHA",
+        "numericId": null,
+        "code": "ALPHA",
+        "precision": 0.00001,
+        "type": "crypto",
+        "name": "ALPHA",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": {},
+        "limits": {
+            "amount": {
+                "min": null,
+                "max": null
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        }
+    }
+}
+```
+
+## High-Level Overview
+
+This is a JSON file located at `ts/src/test/static/currencies/kraken.json`.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 362
+- Code lines: 362
+- Comment lines: 0
+- Blank lines: 0
+
+### Main Components
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+This appears to be a test file.
+
+**To run this test:**

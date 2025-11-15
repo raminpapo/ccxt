@@ -1,0 +1,42 @@
+# Keywords: ts/src/test/base/language_specific/test.uncamelcase.ts
+
+## Extracted Keywords
+
+This file contains 4 keywords extracted from `ts/src/test/base/language_specific/test.uncamelcase.ts`.
+
+
+### .
+
+#### <a name="------------ccxt-js"></a> `../../../../ccxt.js`
+
+Module imported in ts/src/test/base/language_specific/test.uncamelcase.ts
+
+[Back to file docs](test.uncamelcase.ts_docs.md)
+
+
+### A
+
+#### <a name="assert"></a> `assert`
+
+Module imported in ts/src/test/base/language_specific/test.uncamelcase.ts
+
+[Back to file docs](test.uncamelcase.ts_docs.md)
+
+
+### E
+
+#### <a name="equal"></a> `equal`
+
+Identifier defined in ts/src/test/base/language_specific/test.uncamelcase.ts
+
+[Back to file docs](test.uncamelcase.ts_docs.md)
+
+
+### T
+
+#### <a name="testuncamelcase"></a> `testUnCamelCase`
+
+Identifier defined in ts/src/test/base/language_specific/test.uncamelcase.ts
+
+[Back to file docs](test.uncamelcase.ts_docs.md)
+

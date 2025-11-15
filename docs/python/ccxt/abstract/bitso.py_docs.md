@@ -1,0 +1,112 @@
+# Documentation: python/ccxt/abstract/bitso.py
+
+## File Metadata
+
+- **Path**: `python/ccxt/abstract/bitso.py`
+- **Size**: 4,025 bytes
+- **Lines**: 44
+- **Type**: Python
+- **Extension**: .py
+
+
+## Original Source Code
+
+```python
+from ccxt.base.types import Entry
+
+
+class ImplicitAPI:
+    public_get_available_books = publicGetAvailableBooks = Entry('available_books', 'public', 'GET', {})
+    public_get_ticker = publicGetTicker = Entry('ticker', 'public', 'GET', {})
+    public_get_order_book = publicGetOrderBook = Entry('order_book', 'public', 'GET', {})
+    public_get_trades = publicGetTrades = Entry('trades', 'public', 'GET', {})
+    public_get_ohlc = publicGetOhlc = Entry('ohlc', 'public', 'GET', {})
+    private_get_account_status = privateGetAccountStatus = Entry('account_status', 'private', 'GET', {})
+    private_get_balance = privateGetBalance = Entry('balance', 'private', 'GET', {})
+    private_get_fees = privateGetFees = Entry('fees', 'private', 'GET', {})
+    private_get_fundings = privateGetFundings = Entry('fundings', 'private', 'GET', {})
+    private_get_fundings_fid = privateGetFundingsFid = Entry('fundings/{fid}', 'private', 'GET', {})
+    private_get_funding_destination = privateGetFundingDestination = Entry('funding_destination', 'private', 'GET', {})
+    private_get_kyc_documents = privateGetKycDocuments = Entry('kyc_documents', 'private', 'GET', {})
+    private_get_ledger = privateGetLedger = Entry('ledger', 'private', 'GET', {})
+    private_get_ledger_trades = privateGetLedgerTrades = Entry('ledger/trades', 'private', 'GET', {})
+    private_get_ledger_fees = privateGetLedgerFees = Entry('ledger/fees', 'private', 'GET', {})
+    private_get_ledger_fundings = privateGetLedgerFundings = Entry('ledger/fundings', 'private', 'GET', {})
+    private_get_ledger_withdrawals = privateGetLedgerWithdrawals = Entry('ledger/withdrawals', 'private', 'GET', {})
+    private_get_mx_bank_codes = privateGetMxBankCodes = Entry('mx_bank_codes', 'private', 'GET', {})
+    private_get_open_orders = privateGetOpenOrders = Entry('open_orders', 'private', 'GET', {})
+    private_get_order_trades_oid = privateGetOrderTradesOid = Entry('order_trades/{oid}', 'private', 'GET', {})
+    private_get_orders_oid = privateGetOrdersOid = Entry('orders/{oid}', 'private', 'GET', {})
+    private_get_user_trades = privateGetUserTrades = Entry('user_trades', 'private', 'GET', {})
+    private_get_user_trades_tid = privateGetUserTradesTid = Entry('user_trades/{tid}', 'private', 'GET', {})
+    private_get_withdrawals = privateGetWithdrawals = Entry('withdrawals/', 'private', 'GET', {})
+    private_get_withdrawals_wid = privateGetWithdrawalsWid = Entry('withdrawals/{wid}', 'private', 'GET', {})
+    private_post_bitcoin_withdrawal = privatePostBitcoinWithdrawal = Entry('bitcoin_withdrawal', 'private', 'POST', {})
+    private_post_debit_card_withdrawal = privatePostDebitCardWithdrawal = Entry('debit_card_withdrawal', 'private', 'POST', {})
+    private_post_ether_withdrawal = privatePostEtherWithdrawal = Entry('ether_withdrawal', 'private', 'POST', {})
+    private_post_orders = privatePostOrders = Entry('orders', 'private', 'POST', {})
+    private_post_phone_number = privatePostPhoneNumber = Entry('phone_number', 'private', 'POST', {})
+    private_post_phone_verification = privatePostPhoneVerification = Entry('phone_verification', 'private', 'POST', {})
+    private_post_phone_withdrawal = privatePostPhoneWithdrawal = Entry('phone_withdrawal', 'private', 'POST', {})
+    private_post_spei_withdrawal = privatePostSpeiWithdrawal = Entry('spei_withdrawal', 'private', 'POST', {})
+    private_post_ripple_withdrawal = privatePostRippleWithdrawal = Entry('ripple_withdrawal', 'private', 'POST', {})
+    private_post_bcash_withdrawal = privatePostBcashWithdrawal = Entry('bcash_withdrawal', 'private', 'POST', {})
+    private_post_litecoin_withdrawal = privatePostLitecoinWithdrawal = Entry('litecoin_withdrawal', 'private', 'POST', {})
+    private_delete_orders = privateDeleteOrders = Entry('orders', 'private', 'DELETE', {})
+    private_delete_orders_oid = privateDeleteOrdersOid = Entry('orders/{oid}', 'private', 'DELETE', {})
+    private_delete_orders_all = privateDeleteOrdersAll = Entry('orders/all', 'private', 'DELETE', {})
+
+```
+
+## High-Level Overview
+
+This is a Python file located at `python/ccxt/abstract/bitso.py`.
+
+**Classes defined**: ImplicitAPI
+
+**Dependencies**: This file imports other modules.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 44
+- Code lines: 41
+- Comment lines: 0
+- Blank lines: 3
+
+### Main Components
+
+**Classes** (1):
+- `ImplicitAPI`
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+**To execute this Python file:**
+
+```bash
+python python/ccxt/abstract/bitso.py
+```
+

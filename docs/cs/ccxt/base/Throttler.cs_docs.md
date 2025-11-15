@@ -1,0 +1,186 @@
+# Documentation: cs/ccxt/base/Throttler.cs
+
+## File Metadata
+
+- **Path**: `cs/ccxt/base/Throttler.cs`
+- **Size**: 3,592 bytes
+- **Lines**: 122
+- **Type**: C#
+- **Extension**: .cs
+
+
+## Original Source Code
+
+```csharp
+using System.Globalization;
+
+namespace ccxt;
+
+using dict = Dictionary<string, object>;
+public class Throttler
+{
+
+    private dict config = new dict();
+    private Queue<(Task, double)> queue = new Queue<(Task, double)>();
+
+    private bool running = false;
+
+    private static object throttlerLock = new object();
+
+    public Throttler(dict config)
+    {
+        this.config = new Dictionary<string, object>()
+        {
+            {"refillRate",1.0},
+            {"delay", 0.001},
+            {"cost", 1.0},
+            {"tokens", 0},
+            {"maxCapacity", 2000},
+            {"capacity", 1.0},
+        };
+        this.config = extend(this.config, config);
+
+    }
+
+    private async Task loop()
+    {
+        var lastTimestamp = milliseconds();
+        while (this.running)
+        {
+            // do we need this check here?
+            if (this.queue.Count == 0)
+            {
+                this.running = false;
+                continue;
+            }
+            var first = this.queue.Peek();
+            var task = first.Item1;
+            var cost = first.Item2;
+            var tokensAsString = Convert.ToString(this.config["tokens"], CultureInfo.InvariantCulture);
+            var floatTokens = double.Parse(tokensAsString, CultureInfo.InvariantCulture);
+            if (floatTokens >= 0)
+            {
+                this.config["tokens"] = floatTokens - cost;
+                await Task.Delay(0);
+                if (task != null)
+                {
+                    if (task.Status == TaskStatus.Created)
+                    {
+                        task.Start();
+                    }
+                }
+                this.queue.Dequeue();
+
+                if (this.queue.Count == 0)
+                {
+                    this.running = false;
+                }
+            }
+            else
+            {
+                await Task.Delay((int)((double)this.config["delay"] * 1000));
+                var current = milliseconds();
+                var elapsed = current - lastTimestamp;
+                lastTimestamp = current;
+                var tokens = (double)this.config["tokens"] + ((double)this.config["refillRate"] * elapsed);
+                this.config["tokens"] = Math.Min(tokens, (int)this.config["capacity"]);
+            }
+        }
+
+    }
+
+    public async Task<Task> throttle(object cost2)
+    {
+        lock (throttlerLock)
+        {
+            var cost = (cost2 != null) ? Convert.ToDouble(cost2) : Convert.ToDouble(this.config["cost"]);
+            if (Convert.ToInt64(this.queue.Count) > (long)this.config["maxCapacity"])
+            {
+                throw new Exception("throttle queue is over maxCapacity (" + this.config["maxCapacity"].ToString() + "), see https://docs.ccxt.com/#/README?id=maximum-requests-capacity");
+            }
+            var t = new Task(() => { });
+            this.queue.Enqueue((t, cost));
+            if (!this.running)
+            {
+                this.running = true;
+                // Task.Run(() => { this.loop(); });
+                this.loop();
+            }
+            return t;
+        }
+    }
+
+
+    // move this elsewhere later
+    private dict extend(object aa, object bb)
+    {
+
+        var a = (dict)aa;
+        var b = (dict)bb;
+        var keys = new List<string>(b.Keys);
+        foreach (string key in keys)
+        {
+            a[(string)key] = b[key];
+        }
+        return a;
+    }
+
+    public long milliseconds()
+    {
+        DateTimeOffset now = DateTimeOffset.UtcNow;
+        long unixTimeMilliseconds = now.ToUnixTimeMilliseconds();
+        return unixTimeMilliseconds;
+    }
+
+}
+
+```
+
+## High-Level Overview
+
+This is a C# file located at `cs/ccxt/base/Throttler.cs`.
+
+**Classes defined**: Throttler
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 122
+- Code lines: 102
+- Comment lines: 3
+- Blank lines: 17
+
+### Main Components
+
+**Classes** (1):
+- `Throttler`
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+### Performance Notes
+
+- ✓ Uses async/await for non-blocking operations
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+**To execute this C# file:**
+

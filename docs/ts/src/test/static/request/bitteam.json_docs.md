@@ -1,0 +1,217 @@
+# Documentation: ts/src/test/static/request/bitteam.json
+
+## File Metadata
+
+- **Path**: `ts/src/test/static/request/bitteam.json`
+- **Size**: 5,017 bytes
+- **Lines**: 159
+- **Type**: JSON
+- **Extension**: .json
+
+
+## Original Source Code
+
+```json
+{
+    "exchange": "bitteam",
+    "skipKeys": [],
+    "outputType": "json",
+    "methods": {
+        "createOrder": [
+            {
+                "description": "spot market buy",
+                "method": "createOrder",
+                "url": "https://bit.team/trade/api/ccxt/ordercreate",
+                "input": [
+                    "DEL/USDT",
+                    "market",
+                    "buy",
+                    10
+                ],
+                "output": "{\"pairId\":\"24\",\"type\":\"market\",\"side\":\"buy\",\"amount\":\"10\"}"
+            },
+            {
+                "description": "create limit order",
+                "method": "createOrder",
+                "url": "https://bit.team/trade/api/ccxt/ordercreate",
+                "input": [
+                    "DEL/USDT",
+                    "limit",
+                    "buy",
+                    10,
+                    0.01
+                ],
+                "output": "{\"pairId\":\"24\",\"type\":\"limit\",\"side\":\"buy\",\"amount\":\"10\",\"price\":\"0.01\"}"
+            }
+        ],
+        "fetchBalance": [
+            {
+                "description": "fetch balance",
+                "method": "fetchBalance",
+                "url": "https://bit.team/trade/api/ccxt/balance",
+                "input": []
+            }
+        ],
+        "fetchMyTrades": [
+            {
+                "description": "spot trades",
+                "method": "fetchMyTrades",
+                "url": "https://bit.team/trade/api/ccxt/tradesOfUser",
+                "input": []
+            }
+        ],
+        "fetchOrders": [
+            {
+                "description": "fetch orders",
+                "method": "fetchOrders",
+                "url": "https://bit.team/trade/api/ccxt/ordersOfUser?type=all",
+                "input": []
+            }
+        ],
+        "fetchOrder": [
+            {
+                "description": "fetch market order",
+                "method": "fetchOrder",
+                "url": "https://bit.team/trade/api/ccxt/order/111374644",
+                "input": [
+                    111374644
+                ]
+            }
+        ],
+        "cancelOrder": [
+            {
+                "description": "Cancel order",
+                "method": "cancelOrder",
+                "url": "https://bit.team/trade/api/ccxt/cancelorder",
+                "input": [
+                    "111374852"
+                ],
+                "output": "{\"id\":\"111374852\"}"
+            }
+        ],
+        "fetchCanceledOrders": [
+            {
+                "description": "Fetch canceled orders",
+                "method": "fetchCanceledOrders",
+                "url": "https://bit.team/trade/api/ccxt/ordersOfUser?type=cancelled",
+                "input": []
+            }
+        ],
+        "fetchClosedOrders": [
+            {
+                "description": "Fetch closed orders",
+                "method": "fetchClosedOrders",
+                "url": "https://bit.team/trade/api/ccxt/ordersOfUser?type=closed",
+                "input": []
+            }
+        ],
+        "fetchTrades": [
+            {
+                "description": "spot fetchTrades",
+                "method": "fetchTrades",
+                "url": "https://bit.team/trade/api/cmc/trades/btc_usdt",
+                "input": [
+                    "BTC/USDT"
+                ]
+            }
+        ],
+        "fetchOrderBook": [
+            {
+                "description": "spot orderbook",
+                "method": "fetchOrderBook",
+                "url": "https://bit.team/trade/api/cmc/orderbook/btc_usdt",
+                "input": [
+                    "BTC/USDT"
+                ]
+            }
+        ],
+        "fetchTicker": [
+            {
+                "description": "spot ticker",
+                "method": "fetchTicker",
+                "url": "https://bit.team/trade/api/pair/btc_usdt",
+                "input": [
+                    "BTC/USDT"
+                ]
+            }
+        ],
+        "fetchTickers": [
+            {
+                "description": "spot tickers",
+                "method": "fetchTickers",
+                "url": "https://bit.team/trade/api/cmc/summary",
+                "input": [
+                    [
+                        "BTC/USDT",
+                        "ETH/USDT"
+                    ]
+                ]
+            },
+            {
+                "description": "swap tickers",
+                "method": "fetchTickers",
+                "url": "https://bit.team/trade/api/cmc/summary",
+                "input": [
+                    [
+                        "BTC/USDT:USDT",
+                        "ETH/USDT:USDT"
+                    ]
+                ]
+            }
+        ],
+        "fetchOHLCV": [
+            {
+                "description": "spot ohlcv",
+                "method": "fetchOHLCV",
+                "url": "https://history.bit.team/api/tw/history/btc_usdt/1",
+                "input": [
+                    "BTC/USDT"
+                ]
+            }
+        ]
+    }
+}
+```
+
+## High-Level Overview
+
+This is a JSON file located at `ts/src/test/static/request/bitteam.json`.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 159
+- Code lines: 159
+- Comment lines: 0
+- Blank lines: 0
+
+### Main Components
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+This appears to be a test file.
+
+**To run this test:**

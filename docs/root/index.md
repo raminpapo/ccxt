@@ -1,0 +1,72 @@
+# Index: (root)
+
+## Overview
+
+This folder contains 41 files and 14 subdirectories.
+
+## Files
+
+- [.dockerignore](.dockerignore_docs.md)
+- [.eslintignore](.eslintignore_docs.md)
+- [.gitattributes](.gitattributes_docs.md)
+- [.gitignore](.gitignore_docs.md)
+- [.npmignore](.npmignore_docs.md)
+- [.travis.yml](.travis.yml_docs.md)
+- [CHANGELOG.md](CHANGELOG.md_docs.md)
+- [CODEOWNERS](CODEOWNERS_docs.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md_docs.md)
+- [Dockerfile](Dockerfile_docs.md)
+- [ISSUE_TEMPLATE.md](ISSUE_TEMPLATE.md_docs.md)
+- [LICENSE.txt](LICENSE.txt_docs.md)
+- [README.md](README.md_docs.md)
+- [build-go.sh](build-go.sh_docs.md)
+- [build.sh](build.sh_docs.md)
+- [ccxt.php](ccxt.php_docs.md)
+- [ci-requirements.txt](ci-requirements.txt_docs.md)
+- [cleanup.sh](cleanup.sh_docs.md)
+- [composer-install.sh](composer-install.sh_docs.md)
+- [composer.json](composer.json_docs.md)
+- [composer.lock](composer.lock_docs.md)
+- [docker-compose.yml](docker-compose.yml_docs.md)
+- [examples2md.js](examples2md.js_docs.md)
+- [exchanges.cfg](exchanges.cfg_docs.md)
+- [gource.sh](gource.sh_docs.md)
+- [index.d.ts](index.d.ts_docs.md)
+- [index.html](index.html_docs.md)
+- [jsdoc2md.js](jsdoc2md.js_docs.md)
+- [keys.json](keys.json_docs.md)
+- [package-lock.json](package-lock.json_docs.md)
+- [package.json](package.json_docs.md)
+- [postinstall.js](postinstall.js_docs.md)
+- [pyproject.toml](pyproject.toml_docs.md)
+- [repo_book_gen.py](repo_book_gen.py_docs.md)
+- [rollup.config.js](rollup.config.js_docs.md)
+- [run-tests-simul.sh](run-tests-simul.sh_docs.md)
+- [run-tests.js](run-tests.js_docs.md)
+- [setup.cfg](setup.cfg_docs.md)
+- [skip-tests.json](skip-tests.json_docs.md)
+- [tsconfig.json](tsconfig.json_docs.md)
+- [webpack.config.js](webpack.config.js_docs.md)
+
+## Subdirectories
+
+- [.git-templates/](../.git-templates/index.md)
+- [.github/](../.github/index.md)
+- [cli/](../cli/index.md)
+- [cs/](../cs/index.md)
+- [doc/](../doc/index.md)
+- [docs/](../docs/index.md)
+- [examples/](../examples/index.md)
+- [go/](../go/index.md)
+- [js/](../js/index.md)
+- [php/](../php/index.md)
+- [python/](../python/index.md)
+- [ts/](../ts/index.md)
+- [utils/](../utils/index.md)
+- [wiki/](../wiki/index.md)
+
+## Quick Links
+
+- [Folder Documentation](doc.md)
+- [Keyword Index](sub.md)
+- [Back to Root](../index.md)

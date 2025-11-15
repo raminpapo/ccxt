@@ -1,0 +1,202 @@
+# Documentation: ts/src/test/static/request/coinmetro.json
+
+## File Metadata
+
+- **Path**: `ts/src/test/static/request/coinmetro.json`
+- **Size**: 4,965 bytes
+- **Lines**: 144
+- **Type**: JSON
+- **Extension**: .json
+
+
+## Original Source Code
+
+```json
+{
+    "exchange": "coinmetro",
+    "skipKeys": [],
+    "outputType": "urlencoded",
+    "methods": {
+        "fetchCurrencies": [
+            {
+                "description": "fetchCurrencies",
+                "method": "fetchCurrencies",
+                "url": "https://api.coinmetro.com/assets",
+                "input": [],
+                "output": null
+            }
+        ],
+        "createOrder": [
+            {
+                "description": "spot limit order",
+                "method": "createOrder",
+                "url": "https://api.coinmetro.com/exchange/orders/create",
+                "input": [
+                  "XRP/USDT",
+                  "limit",
+                  "buy",
+                  10,
+                  0.5
+                ],
+                "output": "orderType=limit&sellingCurrency=USDT&buyingCurrency=XRP&sellingQty=5&buyingQty=10"
+            },
+            {
+                "description": "spot limit sell",
+                "method": "createOrder",
+                "url": "https://api.coinmetro.com/exchange/orders/create",
+                "input": [
+                  "XRP/USDT",
+                  "limit",
+                  "sell",
+                  10,
+                  0.7
+                ],
+                "output": "orderType=limit&sellingCurrency=XRP&buyingCurrency=USDT&sellingQty=10&buyingQty=7"
+            },
+            {
+                "description": "spot market buy",
+                "method": "createOrder",
+                "url": "https://api.coinmetro.com/exchange/orders/create",
+                "input": [
+                  "XRP/USDT",
+                  "market",
+                  "buy",
+                  10
+                ],
+                "output": "orderType=market&sellingCurrency=USDT&buyingCurrency=XRP&buyingQty=10"
+            },
+            {
+                "description": "spot market sell with clientOrderId",
+                "method": "createOrder",
+                "disabled": true,
+                "url": "https://api.coinmetro.com/exchange/orders/create",
+                "input": [
+                  "XRP/USDT",
+                  "market",
+                  "sell",
+                  10,
+                  null,
+                  {
+                    "clientOrderId": "myId"
+                  }
+                ],
+                "output": "orderType=market&sellingCurrency=XRP&buyingCurrency=USDT&sellingQty=10&userData%5Bcomment%5D=myId"
+            },
+            {
+                "description": "spot market buy with triggerPrice",
+                "method": "createOrder",
+                "url": "https://api.coinmetro.com/exchange/orders/create",
+                "input": [
+                  "XRP/USDT",
+                  "market",
+                  "buy",
+                  10,
+                  null,
+                  {
+                    "triggerPrice": 0.6
+                  }
+                ],
+                "output": "orderType=market&sellingCurrency=USDT&buyingCurrency=XRP&buyingQty=10&stopPrice=0.6"
+            }
+        ],
+        "fetchOrder": [
+            {
+                "description": "fetch order",
+                "method": "fetchOrder",
+                "url": "https://api.coinmetro.com/exchange/orders/status/65671262d93d9525ac009e361705591777386d867610db0e78a61",
+                "input": [
+                  "65671262d93d9525ac009e361705591777386d867610db0e78a61"
+                ]
+            }
+        ],
+        "fetchMyTrades": [
+            {
+                "description": "fetch my trades",
+                "method": "fetchMyTrades",
+                "url": "https://api.coinmetro.com/exchange/fills/0",
+                "input": [
+                  "XRP/USDT"
+                ]
+            }
+        ],
+        "fetchBalance": [
+          {
+            "description": "fetchBalance",
+            "method": "fetchBalance",
+            "url": "https://api.coinmetro.com/users/wallets",
+            "input": []
+          }
+        ],
+        "fetchOpenOrders":[
+            {
+                "description": "open orders",
+                "method": "fetchOpenOrders",
+                "url": "https://api.coinmetro.com/exchange/orders/active",
+                "input": []
+            }
+        ],
+        "cancelOrder": [
+            {
+                "description": "cancel limit order",
+                "method": "cancelOrder",
+                "url": "https://api.coinmetro.com/exchange/orders/cancel/65671262d93d9525ac009e361705591777386d867610db0e78a61",
+                "input": [
+                  "65671262d93d9525ac009e361705591777386d867610db0e78a61"
+                ],
+                "output": ""
+            }
+        ],
+        "fetchCanceledAndClosedOrders": [
+            {
+              "description": "closed and canceled orders",
+              "method": "fetchCanceledAndClosedOrders",
+              "url": "https://api.coinmetro.com/exchange/orders/history/{since}",
+              "input": []
+            }
+        ]
+    }
+}
+```
+
+## High-Level Overview
+
+This is a JSON file located at `ts/src/test/static/request/coinmetro.json`.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 144
+- Code lines: 144
+- Comment lines: 0
+- Blank lines: 0
+
+### Main Components
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+This appears to be a test file.
+
+**To run this test:**

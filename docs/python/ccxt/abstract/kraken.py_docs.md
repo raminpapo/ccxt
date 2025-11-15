@@ -1,0 +1,127 @@
+# Documentation: python/ccxt/abstract/kraken.py
+
+## File Metadata
+
+- **Path**: `python/ccxt/abstract/kraken.py`
+- **Size**: 5,989 bytes
+- **Lines**: 59
+- **Type**: Python
+- **Extension**: .py
+
+
+## Original Source Code
+
+```python
+from ccxt.base.types import Entry
+
+
+class ImplicitAPI:
+    zendesk_get_360000292886 = zendeskGet360000292886 = Entry('360000292886', 'zendesk', 'GET', {})
+    zendesk_get_201893608 = zendeskGet201893608 = Entry('201893608', 'zendesk', 'GET', {})
+    public_get_assets = publicGetAssets = Entry('Assets', 'public', 'GET', {'cost': 1})
+    public_get_assetpairs = publicGetAssetPairs = Entry('AssetPairs', 'public', 'GET', {'cost': 1})
+    public_get_depth = publicGetDepth = Entry('Depth', 'public', 'GET', {'cost': 1.2})
+    public_get_ohlc = publicGetOHLC = Entry('OHLC', 'public', 'GET', {'cost': 1.2})
+    public_get_spread = publicGetSpread = Entry('Spread', 'public', 'GET', {'cost': 1})
+    public_get_systemstatus = publicGetSystemStatus = Entry('SystemStatus', 'public', 'GET', {'cost': 1})
+    public_get_ticker = publicGetTicker = Entry('Ticker', 'public', 'GET', {'cost': 1})
+    public_get_time = publicGetTime = Entry('Time', 'public', 'GET', {'cost': 1})
+    public_get_trades = publicGetTrades = Entry('Trades', 'public', 'GET', {'cost': 1.2})
+    private_post_addorder = privatePostAddOrder = Entry('AddOrder', 'private', 'POST', {'cost': 0})
+    private_post_addorderbatch = privatePostAddOrderBatch = Entry('AddOrderBatch', 'private', 'POST', {'cost': 0})
+    private_post_addexport = privatePostAddExport = Entry('AddExport', 'private', 'POST', {'cost': 3})
+    private_post_amendorder = privatePostAmendOrder = Entry('AmendOrder', 'private', 'POST', {'cost': 0})
+    private_post_balance = privatePostBalance = Entry('Balance', 'private', 'POST', {'cost': 3})
+    private_post_cancelall = privatePostCancelAll = Entry('CancelAll', 'private', 'POST', {'cost': 3})
+    private_post_cancelallordersafter = privatePostCancelAllOrdersAfter = Entry('CancelAllOrdersAfter', 'private', 'POST', {'cost': 3})
+    private_post_cancelorder = privatePostCancelOrder = Entry('CancelOrder', 'private', 'POST', {'cost': 0})
+    private_post_cancelorderbatch = privatePostCancelOrderBatch = Entry('CancelOrderBatch', 'private', 'POST', {'cost': 0})
+    private_post_closedorders = privatePostClosedOrders = Entry('ClosedOrders', 'private', 'POST', {'cost': 3})
+    private_post_depositaddresses = privatePostDepositAddresses = Entry('DepositAddresses', 'private', 'POST', {'cost': 3})
+    private_post_depositmethods = privatePostDepositMethods = Entry('DepositMethods', 'private', 'POST', {'cost': 3})
+    private_post_depositstatus = privatePostDepositStatus = Entry('DepositStatus', 'private', 'POST', {'cost': 3})
+    private_post_editorder = privatePostEditOrder = Entry('EditOrder', 'private', 'POST', {'cost': 0})
+    private_post_exportstatus = privatePostExportStatus = Entry('ExportStatus', 'private', 'POST', {'cost': 3})
+    private_post_getwebsocketstoken = privatePostGetWebSocketsToken = Entry('GetWebSocketsToken', 'private', 'POST', {'cost': 3})
+    private_post_ledgers = privatePostLedgers = Entry('Ledgers', 'private', 'POST', {'cost': 6})
+    private_post_openorders = privatePostOpenOrders = Entry('OpenOrders', 'private', 'POST', {'cost': 3})
+    private_post_openpositions = privatePostOpenPositions = Entry('OpenPositions', 'private', 'POST', {'cost': 3})
+    private_post_queryledgers = privatePostQueryLedgers = Entry('QueryLedgers', 'private', 'POST', {'cost': 3})
+    private_post_queryorders = privatePostQueryOrders = Entry('QueryOrders', 'private', 'POST', {'cost': 3})
+    private_post_querytrades = privatePostQueryTrades = Entry('QueryTrades', 'private', 'POST', {'cost': 3})
+    private_post_retrieveexport = privatePostRetrieveExport = Entry('RetrieveExport', 'private', 'POST', {'cost': 3})
+    private_post_removeexport = privatePostRemoveExport = Entry('RemoveExport', 'private', 'POST', {'cost': 3})
+    private_post_balanceex = privatePostBalanceEx = Entry('BalanceEx', 'private', 'POST', {'cost': 3})
+    private_post_tradebalance = privatePostTradeBalance = Entry('TradeBalance', 'private', 'POST', {'cost': 3})
+    private_post_tradeshistory = privatePostTradesHistory = Entry('TradesHistory', 'private', 'POST', {'cost': 6})
+    private_post_tradevolume = privatePostTradeVolume = Entry('TradeVolume', 'private', 'POST', {'cost': 3})
+    private_post_withdraw = privatePostWithdraw = Entry('Withdraw', 'private', 'POST', {'cost': 3})
+    private_post_withdrawcancel = privatePostWithdrawCancel = Entry('WithdrawCancel', 'private', 'POST', {'cost': 3})
+    private_post_withdrawinfo = privatePostWithdrawInfo = Entry('WithdrawInfo', 'private', 'POST', {'cost': 3})
+    private_post_withdrawmethods = privatePostWithdrawMethods = Entry('WithdrawMethods', 'private', 'POST', {'cost': 3})
+    private_post_withdrawaddresses = privatePostWithdrawAddresses = Entry('WithdrawAddresses', 'private', 'POST', {'cost': 3})
+    private_post_withdrawstatus = privatePostWithdrawStatus = Entry('WithdrawStatus', 'private', 'POST', {'cost': 3})
+    private_post_wallettransfer = privatePostWalletTransfer = Entry('WalletTransfer', 'private', 'POST', {'cost': 3})
+    private_post_createsubaccount = privatePostCreateSubaccount = Entry('CreateSubaccount', 'private', 'POST', {'cost': 3})
+    private_post_accounttransfer = privatePostAccountTransfer = Entry('AccountTransfer', 'private', 'POST', {'cost': 3})
+    private_post_earn_allocate = privatePostEarnAllocate = Entry('Earn/Allocate', 'private', 'POST', {'cost': 3})
+    private_post_earn_deallocate = privatePostEarnDeallocate = Entry('Earn/Deallocate', 'private', 'POST', {'cost': 3})
+    private_post_earn_allocatestatus = privatePostEarnAllocateStatus = Entry('Earn/AllocateStatus', 'private', 'POST', {'cost': 3})
+    private_post_earn_deallocatestatus = privatePostEarnDeallocateStatus = Entry('Earn/DeallocateStatus', 'private', 'POST', {'cost': 3})
+    private_post_earn_strategies = privatePostEarnStrategies = Entry('Earn/Strategies', 'private', 'POST', {'cost': 3})
+    private_post_earn_allocations = privatePostEarnAllocations = Entry('Earn/Allocations', 'private', 'POST', {'cost': 3})
+
+```
+
+## High-Level Overview
+
+This is a Python file located at `python/ccxt/abstract/kraken.py`.
+
+**Classes defined**: ImplicitAPI
+
+**Dependencies**: This file imports other modules.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 59
+- Code lines: 56
+- Comment lines: 0
+- Blank lines: 3
+
+### Main Components
+
+**Classes** (1):
+- `ImplicitAPI`
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+**To execute this Python file:**
+
+```bash
+python python/ccxt/abstract/kraken.py
+```
+

@@ -1,0 +1,104 @@
+# Documentation: examples/py/kucoin-fetch-all-deposit-addresses.py
+
+## File Metadata
+
+- **Path**: `examples/py/kucoin-fetch-all-deposit-addresses.py`
+- **Size**: 1,426 bytes
+- **Lines**: 41
+- **Type**: Python
+- **Extension**: .py
+
+
+## Original Source Code
+
+```python
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+from pprint import pprint
+
+root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(root + '/python')
+
+import ccxt  # noqa: E402
+
+
+exchange = ccxt.kucoin({
+    'apiKey': 'YOUR_API_KEY',
+    'secret': 'YOUR_API_SECRET',
+    'password': 'YOUR_API_PASSWORD',
+})
+
+markets = exchange.load_markets()
+
+exchange.verbose = True  # uncomment for debugging purposes if necessary
+
+for code in ['TLOS']:  # exchange.currencies.keys():
+    response = exchange.public_get_currencies_currency({'currency': code})
+    currency = exchange.safe_value(response, 'data')
+    if currency:
+        # pprint(currency)
+        chains = exchange.safe_value(currency, 'chains')
+        for chain in chains:
+            chainName = exchange.safe_string(chain, 'chainName')
+            try:
+                response = exchange.fetch_deposit_address(code, {'chain': chainName})
+                if response['address'] is not None and response['address'] != '':
+                    print(code, 'has a', chainName, 'address', response['address'], ':' + response['tag'] if response['tag'] is not None and len(response['tag']) else '')
+                else:
+                    print(code, 'has no', chainName, 'address')
+            except ccxt.BaseError as e:
+                print(code, 'has no', chainName, 'address')
+    else:
+        print(code, 'has no addresses')
+
+```
+
+## High-Level Overview
+
+This is a Python file located at `examples/py/kucoin-fetch-all-deposit-addresses.py`.
+
+**Dependencies**: This file imports other modules.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 41
+- Code lines: 30
+- Comment lines: 2
+- Blank lines: 9
+
+### Main Components
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+**To execute this Python file:**
+
+```bash
+python examples/py/kucoin-fetch-all-deposit-addresses.py
+```
+

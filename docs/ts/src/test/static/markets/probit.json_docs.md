@@ -1,0 +1,528 @@
+# Documentation: ts/src/test/static/markets/probit.json
+
+## File Metadata
+
+- **Path**: `ts/src/test/static/markets/probit.json`
+- **Size**: 12,621 bytes
+- **Lines**: 470
+- **Type**: JSON
+- **Extension**: .json
+
+
+## Original Source Code
+
+```json
+{
+    "BTC/USDT": {
+        "id": "BTC-USDT",
+        "lowercaseId": null,
+        "symbol": "BTC/USDT",
+        "base": "BTC",
+        "quote": "USDT",
+        "settle": null,
+        "baseId": "BTC",
+        "quoteId": "USDT",
+        "settleId": null,
+        "type": "spot",
+        "spot": true,
+        "margin": false,
+        "swap": false,
+        "future": false,
+        "option": false,
+        "index": null,
+        "active": true,
+        "contract": false,
+        "linear": null,
+        "inverse": null,
+        "subType": null,
+        "taker": 0.002,
+        "maker": 0.002,
+        "contractSize": null,
+        "expiry": null,
+        "expiryDatetime": null,
+        "strike": null,
+        "optionType": null,
+        "precision": {
+            "amount": 0.000001,
+            "price": 0.01,
+            "cost": 1e-8
+        },
+        "limits": {
+            "leverage": {
+                "min": null,
+                "max": null
+            },
+            "amount": {
+                "min": 0.000001,
+                "max": 10000000000000000
+            },
+            "price": {
+                "min": 0.01,
+                "max": 10000000000000000
+            },
+            "cost": {
+                "min": 1,
+                "max": 10000000000000000
+            }
+        },
+        "marginModes": {
+            "cross": null,
+            "isolated": null
+        },
+        "created": null,
+        "info": {
+            "id": "BTC-USDT",
+            "base_currency_id": "BTC",
+            "quote_currency_id": "USDT",
+            "min_price": "0.01",
+            "max_price": "9999999999999999",
+            "price_increment": "0.01",
+            "min_quantity": "0.000001",
+            "max_quantity": "9999999999999999",
+            "quantity_precision": "6",
+            "min_cost": "1",
+            "max_cost": "9999999999999999",
+            "cost_precision": "8",
+            "maker_fee_rate": "0.2",
+            "taker_fee_rate": "0.2",
+            "show_in_ui": true,
+            "closed": false
+        },
+        "tierBased": false,
+        "percentage": true
+    },
+    "LTC/USDT": {
+        "id": "LTC-USDT",
+        "lowercaseId": null,
+        "symbol": "LTC/USDT",
+        "base": "LTC",
+        "quote": "USDT",
+        "settle": null,
+        "baseId": "LTC",
+        "quoteId": "USDT",
+        "settleId": null,
+        "type": "spot",
+        "spot": true,
+        "margin": false,
+        "swap": false,
+        "future": false,
+        "option": false,
+        "index": null,
+        "active": true,
+        "contract": false,
+        "linear": null,
+        "inverse": null,
+        "subType": null,
+        "taker": 0.002,
+        "maker": 0.002,
+        "contractSize": null,
+        "expiry": null,
+        "expiryDatetime": null,
+        "strike": null,
+        "optionType": null,
+        "precision": {
+            "amount": 0.00001,
+            "price": 0.01,
+            "cost": 1e-8
+        },
+        "limits": {
+            "leverage": {
+                "min": null,
+                "max": null
+            },
+            "amount": {
+                "min": 0.00001,
+                "max": 10000000000000000
+            },
+            "price": {
+                "min": 0.01,
+                "max": 10000000000000000
+            },
+            "cost": {
+                "min": 1,
+                "max": 10000000000000000
+            }
+        },
+        "marginModes": {
+            "cross": null,
+            "isolated": null
+        },
+        "created": null,
+        "info": {
+            "id": "LTC-USDT",
+            "base_currency_id": "LTC",
+            "quote_currency_id": "USDT",
+            "min_price": "0.01",
+            "max_price": "9999999999999999",
+            "price_increment": "0.01",
+            "min_quantity": "0.00001",
+            "max_quantity": "9999999999999999",
+            "quantity_precision": "5",
+            "min_cost": "1",
+            "max_cost": "9999999999999999",
+            "cost_precision": "8",
+            "maker_fee_rate": "0.2",
+            "taker_fee_rate": "0.2",
+            "show_in_ui": true,
+            "closed": false
+        },
+        "tierBased": false,
+        "percentage": true
+    },
+    "XRP/USDT": {
+        "id": "XRP-USDT",
+        "lowercaseId": null,
+        "symbol": "XRP/USDT",
+        "base": "XRP",
+        "quote": "USDT",
+        "settle": null,
+        "baseId": "XRP",
+        "quoteId": "USDT",
+        "settleId": null,
+        "type": "spot",
+        "spot": true,
+        "margin": false,
+        "swap": false,
+        "future": false,
+        "option": false,
+        "index": null,
+        "active": true,
+        "contract": false,
+        "linear": null,
+        "inverse": null,
+        "subType": null,
+        "taker": 0.002,
+        "maker": 0.002,
+        "contractSize": null,
+        "expiry": null,
+        "expiryDatetime": null,
+        "strike": null,
+        "optionType": null,
+        "precision": {
+            "amount": 0.1,
+            "price": 0.0001,
+            "cost": 1e-8
+        },
+        "limits": {
+            "leverage": {
+                "min": null,
+                "max": null
+            },
+            "amount": {
+                "min": 0.1,
+                "max": 10000000000000000
+            },
+            "price": {
+                "min": 0.0001,
+                "max": 10000000000000000
+            },
+            "cost": {
+                "min": 1,
+                "max": 10000000000000000
+            }
+        },
+        "marginModes": {
+            "cross": null,
+            "isolated": null
+        },
+        "created": null,
+        "info": {
+            "id": "XRP-USDT",
+            "base_currency_id": "XRP",
+            "quote_currency_id": "USDT",
+            "min_price": "0.0001",
+            "max_price": "9999999999999999",
+            "price_increment": "0.0001",
+            "min_quantity": "0.1",
+            "max_quantity": "9999999999999999",
+            "quantity_precision": "1",
+            "min_cost": "1",
+            "max_cost": "9999999999999999",
+            "cost_precision": "8",
+            "maker_fee_rate": "0.2",
+            "taker_fee_rate": "0.2",
+            "show_in_ui": true,
+            "closed": false
+        },
+        "tierBased": false,
+        "percentage": true
+    },
+    "SOL/USDT": {
+        "id": "SOL-USDT",
+        "lowercaseId": null,
+        "symbol": "SOL/USDT",
+        "base": "SOL",
+        "quote": "USDT",
+        "settle": null,
+        "baseId": "SOL",
+        "quoteId": "USDT",
+        "settleId": null,
+        "type": "spot",
+        "spot": true,
+        "margin": false,
+        "swap": false,
+        "future": false,
+        "option": false,
+        "index": null,
+        "active": true,
+        "contract": false,
+        "linear": null,
+        "inverse": null,
+        "subType": null,
+        "taker": 0.002,
+        "maker": 0.002,
+        "contractSize": null,
+        "expiry": null,
+        "expiryDatetime": null,
+        "strike": null,
+        "optionType": null,
+        "precision": {
+            "amount": 0.0001,
+            "price": 0.01,
+            "cost": 1e-8
+        },
+        "limits": {
+            "leverage": {
+                "min": null,
+                "max": null
+            },
+            "amount": {
+                "min": 0.0001,
+                "max": 10000000000000000
+            },
+            "price": {
+                "min": 0.01,
+                "max": 10000000000000000
+            },
+            "cost": {
+                "min": 1,
+                "max": 10000000000000000
+            }
+        },
+        "marginModes": {
+            "cross": null,
+            "isolated": null
+        },
+        "created": null,
+        "info": {
+            "id": "SOL-USDT",
+            "base_currency_id": "SOL",
+            "quote_currency_id": "USDT",
+            "min_price": "0.01",
+            "max_price": "9999999999999999",
+            "price_increment": "0.01",
+            "min_quantity": "0.0001",
+            "max_quantity": "9999999999999999",
+            "quantity_precision": "4",
+            "min_cost": "1",
+            "max_cost": "9999999999999999",
+            "cost_precision": "8",
+            "maker_fee_rate": "0.2",
+            "taker_fee_rate": "0.2",
+            "show_in_ui": true,
+            "closed": false
+        },
+        "tierBased": false,
+        "percentage": true
+    },
+    "TRX/USDT": {
+        "id": "TRX-USDT",
+        "lowercaseId": null,
+        "symbol": "TRX/USDT",
+        "base": "TRX",
+        "quote": "USDT",
+        "settle": null,
+        "baseId": "TRX",
+        "quoteId": "USDT",
+        "settleId": null,
+        "type": "spot",
+        "spot": true,
+        "margin": false,
+        "swap": false,
+        "future": false,
+        "option": false,
+        "index": null,
+        "active": true,
+        "contract": false,
+        "linear": null,
+        "inverse": null,
+        "subType": null,
+        "taker": 0.002,
+        "maker": 0.002,
+        "contractSize": null,
+        "expiry": null,
+        "expiryDatetime": null,
+        "strike": null,
+        "optionType": null,
+        "precision": {
+            "amount": 0.0001,
+            "price": 0.0001,
+            "cost": 1e-8
+        },
+        "limits": {
+            "leverage": {
+                "min": null,
+                "max": null
+            },
+            "amount": {
+                "min": 0.0001,
+                "max": 10000000000000000
+            },
+            "price": {
+                "min": 0.0001,
+                "max": 10000000000000000
+            },
+            "cost": {
+                "min": 1,
+                "max": 10000000000000000
+            }
+        },
+        "marginModes": {
+            "cross": null,
+            "isolated": null
+        },
+        "created": null,
+        "info": {
+            "id": "TRX-USDT",
+            "base_currency_id": "TRX",
+            "quote_currency_id": "USDT",
+            "min_price": "0.0001",
+            "max_price": "9999999999999999",
+            "price_increment": "0.0001",
+            "min_quantity": "0.0001",
+            "max_quantity": "9999999999999999",
+            "quantity_precision": "4",
+            "min_cost": "1",
+            "max_cost": "9999999999999999",
+            "cost_precision": "8",
+            "maker_fee_rate": "0.2",
+            "taker_fee_rate": "0.2",
+            "show_in_ui": true,
+            "closed": false
+        },
+        "tierBased": false,
+        "percentage": true
+    },
+    "ETH/USDT": {
+        "id": "ETH-USDT",
+        "lowercaseId": null,
+        "symbol": "ETH/USDT",
+        "base": "ETH",
+        "quote": "USDT",
+        "settle": null,
+        "baseId": "ETH",
+        "quoteId": "USDT",
+        "settleId": null,
+        "type": "spot",
+        "spot": true,
+        "margin": false,
+        "swap": false,
+        "future": false,
+        "option": false,
+        "index": null,
+        "active": true,
+        "contract": false,
+        "linear": null,
+        "inverse": null,
+        "subType": null,
+        "taker": 0.002,
+        "maker": 0.002,
+        "contractSize": null,
+        "expiry": null,
+        "expiryDatetime": null,
+        "strike": null,
+        "optionType": null,
+        "precision": {
+            "amount": 0.00001,
+            "price": 0.01,
+            "cost": 1e-8
+        },
+        "limits": {
+            "leverage": {
+                "min": null,
+                "max": null
+            },
+            "amount": {
+                "min": 0.00001,
+                "max": 10000000000000000
+            },
+            "price": {
+                "min": 0.01,
+                "max": 10000000000000000
+            },
+            "cost": {
+                "min": 1,
+                "max": 10000000000000000
+            }
+        },
+        "marginModes": {
+            "cross": null,
+            "isolated": null
+        },
+        "created": null,
+        "info": {
+            "id": "ETH-USDT",
+            "base_currency_id": "ETH",
+            "quote_currency_id": "USDT",
+            "min_price": "0.01",
+            "max_price": "9999999999999999",
+            "price_increment": "0.01",
+            "min_quantity": "0.00001",
+            "max_quantity": "9999999999999999",
+            "quantity_precision": "5",
+            "min_cost": "1",
+            "max_cost": "9999999999999999",
+            "cost_precision": "8",
+            "maker_fee_rate": "0.2",
+            "taker_fee_rate": "0.2",
+            "show_in_ui": true,
+            "closed": false
+        },
+        "tierBased": false,
+        "percentage": true
+    }
+}
+```
+
+## High-Level Overview
+
+This is a JSON file located at `ts/src/test/static/markets/probit.json`.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 470
+- Code lines: 470
+- Comment lines: 0
+- Blank lines: 0
+
+### Main Components
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+This appears to be a test file.
+
+**To run this test:**

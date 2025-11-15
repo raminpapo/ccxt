@@ -1,0 +1,101 @@
+# Documentation: python/ccxt/abstract/bitbank.py
+
+## File Metadata
+
+- **Path**: `python/ccxt/abstract/bitbank.py`
+- **Size**: 3,398 bytes
+- **Lines**: 33
+- **Type**: Python
+- **Extension**: .py
+
+
+## Original Source Code
+
+```python
+from ccxt.base.types import Entry
+
+
+class ImplicitAPI:
+    public_get_pair_ticker = publicGetPairTicker = Entry('{pair}/ticker', 'public', 'GET', {})
+    public_get_tickers = publicGetTickers = Entry('tickers', 'public', 'GET', {})
+    public_get_tickers_jpy = publicGetTickersJpy = Entry('tickers_jpy', 'public', 'GET', {})
+    public_get_pair_depth = publicGetPairDepth = Entry('{pair}/depth', 'public', 'GET', {})
+    public_get_pair_transactions = publicGetPairTransactions = Entry('{pair}/transactions', 'public', 'GET', {})
+    public_get_pair_transactions_yyyymmdd = publicGetPairTransactionsYyyymmdd = Entry('{pair}/transactions/{yyyymmdd}', 'public', 'GET', {})
+    public_get_pair_candlestick_candletype_yyyymmdd = publicGetPairCandlestickCandletypeYyyymmdd = Entry('{pair}/candlestick/{candletype}/{yyyymmdd}', 'public', 'GET', {})
+    public_get_pair_circuit_break_info = publicGetPairCircuitBreakInfo = Entry('{pair}/circuit_break_info', 'public', 'GET', {})
+    private_get_user_assets = privateGetUserAssets = Entry('user/assets', 'private', 'GET', {})
+    private_get_user_spot_order = privateGetUserSpotOrder = Entry('user/spot/order', 'private', 'GET', {})
+    private_get_user_spot_active_orders = privateGetUserSpotActiveOrders = Entry('user/spot/active_orders', 'private', 'GET', {})
+    private_get_user_margin_positions = privateGetUserMarginPositions = Entry('user/margin/positions', 'private', 'GET', {})
+    private_get_user_spot_trade_history = privateGetUserSpotTradeHistory = Entry('user/spot/trade_history', 'private', 'GET', {})
+    private_get_user_deposit_history = privateGetUserDepositHistory = Entry('user/deposit_history', 'private', 'GET', {})
+    private_get_user_unconfirmed_deposits = privateGetUserUnconfirmedDeposits = Entry('user/unconfirmed_deposits', 'private', 'GET', {})
+    private_get_user_deposit_originators = privateGetUserDepositOriginators = Entry('user/deposit_originators', 'private', 'GET', {})
+    private_get_user_withdrawal_account = privateGetUserWithdrawalAccount = Entry('user/withdrawal_account', 'private', 'GET', {})
+    private_get_user_withdrawal_history = privateGetUserWithdrawalHistory = Entry('user/withdrawal_history', 'private', 'GET', {})
+    private_get_spot_status = privateGetSpotStatus = Entry('spot/status', 'private', 'GET', {})
+    private_get_spot_pairs = privateGetSpotPairs = Entry('spot/pairs', 'private', 'GET', {})
+    private_post_user_spot_order = privatePostUserSpotOrder = Entry('user/spot/order', 'private', 'POST', {})
+    private_post_user_spot_cancel_order = privatePostUserSpotCancelOrder = Entry('user/spot/cancel_order', 'private', 'POST', {})
+    private_post_user_spot_cancel_orders = privatePostUserSpotCancelOrders = Entry('user/spot/cancel_orders', 'private', 'POST', {})
+    private_post_user_spot_orders_info = privatePostUserSpotOrdersInfo = Entry('user/spot/orders_info', 'private', 'POST', {})
+    private_post_user_confirm_deposits = privatePostUserConfirmDeposits = Entry('user/confirm_deposits', 'private', 'POST', {})
+    private_post_user_confirm_deposits_all = privatePostUserConfirmDepositsAll = Entry('user/confirm_deposits_all', 'private', 'POST', {})
+    private_post_user_request_withdrawal = privatePostUserRequestWithdrawal = Entry('user/request_withdrawal', 'private', 'POST', {})
+    markets_get_spot_pairs = marketsGetSpotPairs = Entry('spot/pairs', 'markets', 'GET', {})
+
+```
+
+## High-Level Overview
+
+This is a Python file located at `python/ccxt/abstract/bitbank.py`.
+
+**Classes defined**: ImplicitAPI
+
+**Dependencies**: This file imports other modules.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 33
+- Code lines: 30
+- Comment lines: 0
+- Blank lines: 3
+
+### Main Components
+
+**Classes** (1):
+- `ImplicitAPI`
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+**To execute this Python file:**
+
+```bash
+python python/ccxt/abstract/bitbank.py
+```
+

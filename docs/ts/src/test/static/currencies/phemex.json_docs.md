@@ -1,0 +1,420 @@
+# Documentation: ts/src/test/static/currencies/phemex.json
+
+## File Metadata
+
+- **Path**: `ts/src/test/static/currencies/phemex.json`
+- **Size**: 9,274 bytes
+- **Lines**: 362
+- **Type**: JSON
+- **Extension**: .json
+
+
+## Original Source Code
+
+```json
+{
+    "BTC": {
+        "info": {
+            "currency": "BTC",
+            "name": "Bitcoin",
+            "code": "1",
+            "valueScale": "8",
+            "minValueEv": "1",
+            "maxValueEv": "5000000000000000000",
+            "needAddrTag": "0",
+            "status": "Listed",
+            "displayCurrency": "BTC",
+            "inAssetsDisplay": "1",
+            "perpetual": "0",
+            "stableCoin": "0",
+            "assetsPrecision": "8"
+        },
+        "id": "BTC",
+        "numericId": null,
+        "code": "BTC",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "Bitcoin",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": null,
+        "limits": {
+            "amount": {
+                "min": 1e-8,
+                "max": 50000000000
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        },
+        "valueScale": 8
+    },
+    "USDT": {
+        "info": {
+            "currency": "USDT",
+            "name": "TetherUS",
+            "code": "3",
+            "valueScale": "8",
+            "minValueEv": "1",
+            "maxValueEv": "5000000000000000000",
+            "needAddrTag": "0",
+            "status": "Listed",
+            "displayCurrency": "USDT",
+            "inAssetsDisplay": "1",
+            "perpetual": "2",
+            "stableCoin": "1",
+            "assetsPrecision": "8"
+        },
+        "id": "USDT",
+        "numericId": null,
+        "code": "USDT",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "TetherUS",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": null,
+        "limits": {
+            "amount": {
+                "min": 1e-8,
+                "max": 50000000000
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        },
+        "valueScale": 8
+    },
+    "USD": {
+        "info": {
+            "currency": "USD",
+            "name": "USD",
+            "code": "2",
+            "valueScale": "4",
+            "minValueEv": "1",
+            "maxValueEv": "5000000000000000000",
+            "needAddrTag": "0",
+            "status": "Listed",
+            "displayCurrency": "USD",
+            "inAssetsDisplay": "1",
+            "perpetual": "0",
+            "stableCoin": "0",
+            "assetsPrecision": "2"
+        },
+        "id": "USD",
+        "numericId": null,
+        "code": "USD",
+        "precision": 0.0001,
+        "type": "crypto",
+        "name": "USD",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": null,
+        "limits": {
+            "amount": {
+                "min": 0.0001,
+                "max": 500000000000000
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        },
+        "valueScale": 4
+    },
+    "LTC": {
+        "info": {
+            "currency": "LTC",
+            "name": "Litecoin",
+            "code": "8",
+            "valueScale": "8",
+            "minValueEv": "1",
+            "maxValueEv": "5000000000000000000",
+            "needAddrTag": "0",
+            "status": "Listed",
+            "displayCurrency": "LTC",
+            "inAssetsDisplay": "1",
+            "perpetual": "0",
+            "stableCoin": "0",
+            "assetsPrecision": "8"
+        },
+        "id": "LTC",
+        "numericId": null,
+        "code": "LTC",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "Litecoin",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": null,
+        "limits": {
+            "amount": {
+                "min": 1e-8,
+                "max": 50000000000
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        },
+        "valueScale": 8
+    },
+    "ETH": {
+        "info": {
+            "currency": "ETH",
+            "name": "Ethereum",
+            "code": "4",
+            "valueScale": "8",
+            "minValueEv": "1",
+            "maxValueEv": "5000000000000000000",
+            "needAddrTag": "0",
+            "status": "Listed",
+            "displayCurrency": "ETH",
+            "inAssetsDisplay": "1",
+            "perpetual": "0",
+            "stableCoin": "0",
+            "assetsPrecision": "8"
+        },
+        "id": "ETH",
+        "numericId": null,
+        "code": "ETH",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "Ethereum",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": null,
+        "limits": {
+            "amount": {
+                "min": 1e-8,
+                "max": 50000000000
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        },
+        "valueScale": 8
+    },
+    "ADA": {
+        "info": {
+            "currency": "ADA",
+            "name": "Cardano",
+            "code": "10",
+            "valueScale": "8",
+            "minValueEv": "1",
+            "maxValueEv": "5000000000000000000",
+            "needAddrTag": "0",
+            "status": "Listed",
+            "displayCurrency": "ADA",
+            "inAssetsDisplay": "1",
+            "perpetual": "1",
+            "stableCoin": "0",
+            "assetsPrecision": "8"
+        },
+        "id": "ADA",
+        "numericId": null,
+        "code": "ADA",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "Cardano",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": null,
+        "limits": {
+            "amount": {
+                "min": 1e-8,
+                "max": 50000000000
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        },
+        "valueScale": 8
+    },
+    "XRP": {
+        "info": {
+            "currency": "XRP",
+            "name": "XRP",
+            "code": "5",
+            "valueScale": "8",
+            "minValueEv": "1",
+            "maxValueEv": "5000000000000000000",
+            "needAddrTag": "1",
+            "status": "Listed",
+            "displayCurrency": "XRP",
+            "inAssetsDisplay": "1",
+            "perpetual": "1",
+            "stableCoin": "0",
+            "assetsPrecision": "8"
+        },
+        "id": "XRP",
+        "numericId": null,
+        "code": "XRP",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "XRP",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": null,
+        "limits": {
+            "amount": {
+                "min": 1e-8,
+                "max": 50000000000
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        },
+        "valueScale": 8
+    },
+    "USDC": {
+        "info": {
+            "currency": "USDC",
+            "name": "USD Coin",
+            "code": "57",
+            "valueScale": "8",
+            "minValueEv": "1",
+            "maxValueEv": "5000000000000000000",
+            "needAddrTag": "0",
+            "status": "Listed",
+            "displayCurrency": "USDC",
+            "inAssetsDisplay": "1",
+            "perpetual": "2",
+            "stableCoin": "1",
+            "assetsPrecision": "6"
+        },
+        "id": "USDC",
+        "numericId": null,
+        "code": "USDC",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "USD Coin",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": null,
+        "limits": {
+            "amount": {
+                "min": 1e-8,
+                "max": 50000000000
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        },
+        "valueScale": 8
+    },
+    "SOL": {
+        "info": {
+            "currency": "SOL",
+            "name": "Solana",
+            "code": "41",
+            "valueScale": "8",
+            "minValueEv": "1",
+            "maxValueEv": "5000000000000000000",
+            "needAddrTag": "0",
+            "status": "Listed",
+            "displayCurrency": "SOL",
+            "inAssetsDisplay": "1",
+            "perpetual": "1",
+            "stableCoin": "0",
+            "assetsPrecision": "8"
+        },
+        "id": "SOL",
+        "numericId": null,
+        "code": "SOL",
+        "precision": 1e-8,
+        "type": "crypto",
+        "name": "Solana",
+        "active": true,
+        "deposit": null,
+        "withdraw": null,
+        "fee": null,
+        "fees": {},
+        "networks": null,
+        "limits": {
+            "amount": {
+                "min": 1e-8,
+                "max": 50000000000
+            },
+            "withdraw": {
+                "min": null,
+                "max": null
+            }
+        },
+        "valueScale": 8
+    }
+}
+```
+
+## High-Level Overview
+
+This is a JSON file located at `ts/src/test/static/currencies/phemex.json`.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 362
+- Code lines: 362
+- Comment lines: 0
+- Blank lines: 0
+
+### Main Components
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+This appears to be a test file.
+
+**To run this test:**

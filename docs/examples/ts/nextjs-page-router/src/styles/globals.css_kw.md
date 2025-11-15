@@ -1,0 +1,6 @@
+# Keywords: examples/ts/nextjs-page-router/src/styles/globals.css
+
+## Extracted Keywords
+
+This file contains 0 keywords extracted from `examples/ts/nextjs-page-router/src/styles/globals.css`.
+

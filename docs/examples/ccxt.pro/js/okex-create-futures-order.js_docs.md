@@ -1,0 +1,117 @@
+# Documentation: examples/ccxt.pro/js/okex-create-futures-order.js
+
+## File Metadata
+
+- **Path**: `examples/ccxt.pro/js/okex-create-futures-order.js`
+- **Size**: 1,716 bytes
+- **Lines**: 49
+- **Type**: JavaScript
+- **Extension**: .js
+
+
+## Original Source Code
+
+```javascript
+'use strict';
+
+const ccxt = require ('ccxt')
+    , exchange = new ccxt.okex ({
+        apiKey: 'YOUR_API_KEY',
+        secret: 'YOUR_API_SECRET',
+        password: 'YOUR_API_PASSWORD',
+        enableRateLimit: true,
+        options: { defaultType: 'futures' },
+    })
+    , symbol = 'BTC/USDT:USDT-201225'
+    , amount = 1 // how may contracts
+    , price = undefined // or your limit price
+    , side = 'buy' // or 'sell'
+    , type = '1' // 1 open long, 2 open short, 3 close long, 4 close short for futures
+    , order_type = '4' // 0 = limit order, 4 = market order
+
+console.log ('CCXT Pro Version: ', ccxt.version)
+
+async function main () {
+
+    try {
+
+        await exchange.loadMarkets ()
+
+        // exchange.verbose = true // uncomment for debugging
+        // open long market price order
+        const order = await exchange.createOrder(symbol, 'market', side, amount, price, { type });
+        // --------------------------------------------------------------------
+        // open long market price order
+        // const order = await exchange.createOrder(symbol, type, side, amount, price, { order_type });
+        // --------------------------------------------------------------------
+        // close short market price order
+        // const order = await exchange.createOrder(symbol, 'market', side, amount, price, { type, order_type });
+        // --------------------------------------------------------------------
+        // close short market price order
+        // const order = await exchange.createOrder(symbol, '4', side, amount, price, { order_type });
+        // ...
+
+        console.log (order)
+
+    } catch (e) {
+
+        console.log (e.constructor.name, e.message)
+    }
+}
+
+main ()
+
+```
+
+## High-Level Overview
+
+This is a JavaScript file located at `examples/ccxt.pro/js/okex-create-futures-order.js`.
+
+**Functions defined**: main
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 49
+- Code lines: 26
+- Comment lines: 12
+- Blank lines: 11
+
+### Main Components
+
+**Functions** (1):
+- `main()`
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+### Performance Notes
+
+- ✓ Uses async/await for non-blocking operations
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+**To execute this JavaScript file:**
+
+```bash
+node examples/ccxt.pro/js/okex-create-futures-order.js
+```
+

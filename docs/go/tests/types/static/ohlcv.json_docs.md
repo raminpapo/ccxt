@@ -1,0 +1,130 @@
+# Documentation: go/tests/types/static/ohlcv.json
+
+## File Metadata
+
+- **Path**: `go/tests/types/static/ohlcv.json`
+- **Size**: 1,521 bytes
+- **Lines**: 72
+- **Type**: JSON
+- **Extension**: .json
+
+
+## Original Source Code
+
+```json
+[
+    [
+        1737367200000,
+        "108132.05000000",
+        "108731.92000000",
+        "107769.18000000",
+        "107964.56000000",
+        "1721.08834000",
+        1737370799999,
+        "186383255.34200440",
+        254641,
+        "823.65842000",
+        "89198936.38479750",
+        "0"
+    ],
+    [
+        1737370800000,
+        "107964.56000000",
+        "108550.00000000",
+        "107780.51000000",
+        "108239.19000000",
+        "1549.29703000",
+        1737374399999,
+        "167662967.60484890",
+        246362,
+        "752.39577000",
+        "81434451.65073520",
+        "0"
+    ],
+    [
+        1737374400000,
+        "108239.19000000",
+        "108700.01000000",
+        "105472.95000000",
+        "106917.59000000",
+        "4856.77565000",
+        1737377999999,
+        "518494575.84311460",
+        635118,
+        "2265.51012000",
+        "241859845.26093480",
+        "0"
+    ],
+    [
+        1737378000000,
+        "106918.83000000",
+        "108125.00000000",
+        "106651.11000000",
+        "107956.31000000",
+        "2397.52118000",
+        1737381599999,
+        "257652454.21844440",
+        453066,
+        "1305.69408000",
+        "140312577.19535750",
+        "0"
+    ],
+    [
+        1737381600000,
+        "107956.31000000",
+        "108130.08000000",
+        "107277.28000000",
+        "107628.75000000",
+        "1538.46983000",
+        1737385199999,
+        "165709280.17203390",
+        259014,
+        "780.07684000",
+        "84037212.23606790",
+        "0"
+    ]
+]
+```
+
+## High-Level Overview
+
+This is a JSON file located at `go/tests/types/static/ohlcv.json`.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 72
+- Code lines: 72
+- Comment lines: 0
+- Blank lines: 0
+
+### Main Components
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+This appears to be a test file.
+
+**To run this test:**

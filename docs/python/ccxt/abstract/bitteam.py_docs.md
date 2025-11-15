@@ -1,0 +1,98 @@
+# Documentation: python/ccxt/abstract/bitteam.py
+
+## File Metadata
+
+- **Path**: `python/ccxt/abstract/bitteam.py`
+- **Size**: 3,478 bytes
+- **Lines**: 30
+- **Type**: Python
+- **Extension**: .py
+
+
+## Original Source Code
+
+```python
+from ccxt.base.types import Entry
+
+
+class ImplicitAPI:
+    history_get_api_tw_history_pairname_resolution = historyGetApiTwHistoryPairNameResolution = Entry('api/tw/history/{pairName}/{resolution}', 'history', 'GET', {'cost': 1})
+    public_get_trade_api_asset = publicGetTradeApiAsset = Entry('trade/api/asset', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_currencies = publicGetTradeApiCurrencies = Entry('trade/api/currencies', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_orderbooks_symbol = publicGetTradeApiOrderbooksSymbol = Entry('trade/api/orderbooks/{symbol}', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_orders = publicGetTradeApiOrders = Entry('trade/api/orders', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_pair_name = publicGetTradeApiPairName = Entry('trade/api/pair/{name}', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_pairs = publicGetTradeApiPairs = Entry('trade/api/pairs', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_pairs_precisions = publicGetTradeApiPairsPrecisions = Entry('trade/api/pairs/precisions', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_rates = publicGetTradeApiRates = Entry('trade/api/rates', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_trade_id = publicGetTradeApiTradeId = Entry('trade/api/trade/{id}', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_trades = publicGetTradeApiTrades = Entry('trade/api/trades', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_ccxt_pairs = publicGetTradeApiCcxtPairs = Entry('trade/api/ccxt/pairs', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_cmc_assets = publicGetTradeApiCmcAssets = Entry('trade/api/cmc/assets', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_cmc_orderbook_pair = publicGetTradeApiCmcOrderbookPair = Entry('trade/api/cmc/orderbook/{pair}', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_cmc_summary = publicGetTradeApiCmcSummary = Entry('trade/api/cmc/summary', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_cmc_ticker = publicGetTradeApiCmcTicker = Entry('trade/api/cmc/ticker', 'public', 'GET', {'cost': 1})
+    public_get_trade_api_cmc_trades_pair = publicGetTradeApiCmcTradesPair = Entry('trade/api/cmc/trades/{pair}', 'public', 'GET', {'cost': 1})
+    private_get_trade_api_ccxt_balance = privateGetTradeApiCcxtBalance = Entry('trade/api/ccxt/balance', 'private', 'GET', {'cost': 1})
+    private_get_trade_api_ccxt_order_id = privateGetTradeApiCcxtOrderId = Entry('trade/api/ccxt/order/{id}', 'private', 'GET', {'cost': 1})
+    private_get_trade_api_ccxt_ordersofuser = privateGetTradeApiCcxtOrdersOfUser = Entry('trade/api/ccxt/ordersOfUser', 'private', 'GET', {'cost': 1})
+    private_get_trade_api_ccxt_tradesofuser = privateGetTradeApiCcxtTradesOfUser = Entry('trade/api/ccxt/tradesOfUser', 'private', 'GET', {'cost': 1})
+    private_get_trade_api_transactionsofuser = privateGetTradeApiTransactionsOfUser = Entry('trade/api/transactionsOfUser', 'private', 'GET', {'cost': 1})
+    private_post_trade_api_ccxt_cancel_all_order = privatePostTradeApiCcxtCancelAllOrder = Entry('trade/api/ccxt/cancel-all-order', 'private', 'POST', {'cost': 1})
+    private_post_trade_api_ccxt_cancelorder = privatePostTradeApiCcxtCancelorder = Entry('trade/api/ccxt/cancelorder', 'private', 'POST', {'cost': 1})
+    private_post_trade_api_ccxt_ordercreate = privatePostTradeApiCcxtOrdercreate = Entry('trade/api/ccxt/ordercreate', 'private', 'POST', {'cost': 1})
+
+```
+
+## High-Level Overview
+
+This is a Python file located at `python/ccxt/abstract/bitteam.py`.
+
+**Classes defined**: ImplicitAPI
+
+**Dependencies**: This file imports other modules.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 30
+- Code lines: 27
+- Comment lines: 0
+- Blank lines: 3
+
+### Main Components
+
+**Classes** (1):
+- `ImplicitAPI`
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+**To execute this Python file:**
+
+```bash
+python python/ccxt/abstract/bitteam.py
+```
+

@@ -1,0 +1,137 @@
+# Documentation: python/ccxt/static_dependencies/starkware/crypto/utils.py
+
+## File Metadata
+
+- **Path**: `python/ccxt/static_dependencies/starkware/crypto/utils.py`
+- **Size**: 1,600 bytes
+- **Lines**: 63
+- **Type**: Python
+- **Extension**: .py
+
+
+## Original Source Code
+
+```python
+from typing import (
+    AsyncGenerator,
+    Optional,
+    TypeVar,
+)
+
+import sys
+
+if sys.version_info.minor >= 11:
+    from typing import Literal, ParamSpec
+else:
+    from typing_extensions import Literal, ParamSpec
+
+T = TypeVar("T")
+P = ParamSpec("P")
+K = TypeVar("K")
+V = TypeVar("V")
+TAsyncGenerator = TypeVar("TAsyncGenerator", bound=AsyncGenerator)
+NumType = TypeVar("NumType", int, float)
+HASH_BYTES = 32
+
+# If more shared types start popping up here extract to types.py.
+Endianness = Literal["big", "little"]
+TComparable = TypeVar("TComparable", bound="Comparable")
+
+def to_bytes(
+    value: int,
+    length: Optional[int] = None,
+    byte_order: Optional[Endianness] = None,
+    signed: Optional[bool] = None,
+) -> bytes:
+    """
+    Converts the given integer to a bytes object of given length and byte order.
+    The default values are 32B width (which is the hash result width) and 'big', respectively.
+    """
+    if length is None:
+        length = HASH_BYTES
+
+    if byte_order is None:
+        byte_order = "big"
+
+    if signed is None:
+        signed = False
+
+    return int.to_bytes(value, length=length, byteorder=byte_order, signed=signed)
+
+
+def from_bytes(
+    value: bytes,
+    byte_order: Optional[Endianness] = None,
+    signed: Optional[bool] = None,
+) -> int:
+    """
+    Converts the given bytes object (parsed according to the given byte order) to an integer.
+    Default byte order is 'big'.
+    """
+    if byte_order is None:
+        byte_order = "big"
+
+    if signed is None:
+        signed = False
+
+    return int.from_bytes(value, byteorder=byte_order, signed=signed)
+```
+
+## High-Level Overview
+
+This is a Python file located at `python/ccxt/static_dependencies/starkware/crypto/utils.py`.
+
+**Functions defined**: from_bytes, to_bytes
+
+**Dependencies**: This file imports other modules.
+
+**Documentation**: Contains inline documentation/comments.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 63
+- Code lines: 50
+- Comment lines: 5
+- Blank lines: 8
+
+### Main Components
+
+**Functions** (2):
+- `from_bytes()`
+- `to_bytes()`
+
+**Constants** (1):
+- `HASH_BYTES`
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+**To execute this Python file:**
+
+```bash
+python python/ccxt/static_dependencies/starkware/crypto/utils.py
+```
+

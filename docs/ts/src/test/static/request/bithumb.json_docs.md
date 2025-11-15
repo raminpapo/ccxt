@@ -1,0 +1,174 @@
+# Documentation: ts/src/test/static/request/bithumb.json
+
+## File Metadata
+
+- **Path**: `ts/src/test/static/request/bithumb.json`
+- **Size**: 3,723 bytes
+- **Lines**: 116
+- **Type**: JSON
+- **Extension**: .json
+
+
+## Original Source Code
+
+```json
+{
+    "exchange": "bithumb",
+    "skipKeys": [],
+    "outputType": "urlencoded",
+    "methods": {
+        "fetchBalance": [
+            {
+                "description": "fetchBalance",
+                "method": "fetchBalance",
+                "url": "https://api.bithumb.com/info/balance",
+                "input": [],
+                "output": "endpoint=%2Finfo%2Fbalance&currency=ALL"
+            }
+        ],
+        "fetchOrderBook": [
+            {
+                "description": "fetchOrderBook",
+                "method": "fetchOrderBook",
+                "url": "https://api.bithumb.com/public/orderbook/BTC_KRW?count=5",
+                "input": [
+                    "BTC/KRW",
+                    5
+                ]
+            }
+        ],
+        "fetchTicker": [
+            {
+                "description": "fetchTicker",
+                "method": "fetchTicker",
+                "url": "https://api.bithumb.com/public/ticker/BTC_KRW",
+                "input": [
+                    "BTC/KRW"
+                ]
+            }
+        ],
+        "fetchOHLCV": [
+            {
+                "description": "fetchOHLCV",
+                "method": "fetchOHLCV",
+                "url": "https://api.bithumb.com/public/candlestick/BTC_KRW/1m",
+                "input": [
+                    "BTC/KRW",
+                    "1m",
+                    null,
+                    5
+                ]
+            }
+        ],
+        "fetchTrades": [
+            {
+                "description": "fetchTrades",
+                "method": "fetchTrades",
+                "url": "https://api.bithumb.com/public/transaction_history/BTC_KRW?count=5",
+                "input": [
+                    "BTC/KRW",
+                    null,
+                    5
+                ]
+            }
+        ],
+        "createOrder": [
+            {
+                "description": "createOrder",
+                "method": "createOrder",
+                "url": "https://api.bithumb.com/trade/market_buy",
+                "input": [
+                    "BTC/KRW",
+                    "market",
+                    "buy",
+                    0.01,
+                    67734000
+                ],
+                "output": "endpoint=%2Ftrade%2Fmarket_buy&order_currency=BTC&payment_currency=KRW&units=0.01"
+            }
+        ],
+        "fetchOrder": [
+            {
+                "description": "fetchOrder",
+                "method": "fetchOrder",
+                "url": "https://api.bithumb.com/info/order_detail",
+                "input": [
+                    "1429500241523",
+                    "BTC/KRW"
+                ],
+                "output": "endpoint=%2Finfo%2Forder_detail&order_id=1429500241523&count=1&order_currency=BTC&payment_currency=KRW"
+            }
+        ],
+        "fetchOpenOrders": [
+            {
+                "description": "fetchOpenOrders",
+                "method": "fetchOpenOrders",
+                "url": "https://api.bithumb.com/info/orders",
+                "input": [
+                    "BTC/KRW"
+                ],
+                "output": "endpoint=%2Finfo%2Forders&count=100&order_currency=BTC&payment_currency=KRW"
+            }
+        ],
+        "cancelOrder": [
+            {
+                "description": "cancelOrder",
+                "method": "cancelOrder",
+                "url": "https://api.bithumb.com/trade/cancel",
+                "input": [
+                    "1429500241523",
+                    "BTC/KRW",
+                    {
+                        "side": "buy"
+                    }
+                ],
+                "output": "endpoint=%2Ftrade%2Fcancel&order_id=1429500241523&type=bid&order_currency=BTC&payment_currency=KRW"
+            }
+        ]
+    }
+}
+
+```
+
+## High-Level Overview
+
+This is a JSON file located at `ts/src/test/static/request/bithumb.json`.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 116
+- Code lines: 115
+- Comment lines: 0
+- Blank lines: 1
+
+### Main Components
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+This appears to be a test file.
+
+**To run this test:**

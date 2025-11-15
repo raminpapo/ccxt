@@ -1,0 +1,663 @@
+# Keywords: python/ccxt/bittrade.py
+
+## Extracted Keywords
+
+This file contains 96 keywords extracted from `python/ccxt/bittrade.py`.
+
+
+### A
+
+#### <a name="algo"></a> `ALGO`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="and"></a> `AND`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="api"></a> `API`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### B
+
+#### <a name="bifi"></a> `BIFI`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="btc"></a> `BTC`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### C
+
+#### <a name="contributing"></a> `CONTRIBUTING`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="cors"></a> `CORS`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### E
+
+#### <a name="edit"></a> `EDIT`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="erc20"></a> `ERC20`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="eth"></a> `ETH`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### F
+
+#### <a name="file"></a> `FILE`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fok"></a> `FOK`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### G
+
+#### <a name="generated"></a> `GENERATED`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="get"></a> `GET`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="gtc"></a> `GTC`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="gtd"></a> `GTD`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### H
+
+#### <a name="heco"></a> `HECO`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="hit"></a> `HIT`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="hrc20"></a> `HRC20`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### I
+
+#### <a name="institution"></a> `INSTITUTION`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="ioc"></a> `IOC`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### L
+
+#### <a name="ltc"></a> `LTC`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### M
+
+#### <a name="minepool"></a> `MINEPOOL`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### N
+
+#### <a name="nav"></a> `NAV`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="not"></a> `NOT`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### O
+
+#### <a name="ohlcv"></a> `OHLCV`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="omg"></a> `OMG`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="omni"></a> `OMNI`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="otc"></a> `OTC`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="overwritten"></a> `OVERWRITTEN`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### P
+
+#### <a name="php"></a> `PHP`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="please"></a> `PLEASE`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="pnt"></a> `PNT`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="post"></a> `POST`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### S
+
+#### <a name="sbtc"></a> `SBTC`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### T
+
+#### <a name="this"></a> `THIS`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="tick_size"></a> `TICK_SIZE`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="truncate"></a> `TRUNCATE`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="trx"></a> `TRX`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### U
+
+#### <a name="usdt"></a> `USDT`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### W
+
+#### <a name="will"></a> `WILL`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### X
+
+#### <a name="xrp"></a> `XRP`
+
+Constant in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### B
+
+#### <a name="bittrade"></a> `bittrade`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### C
+
+#### <a name="cancel_all_orders"></a> `cancel_all_orders`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="cancel_order"></a> `cancel_order`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="cancel_orders"></a> `cancel_orders`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="cost_to_precision"></a> `cost_to_precision`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="create_market_buy_order_with_cost"></a> `create_market_buy_order_with_cost`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="create_order"></a> `create_order`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### D
+
+#### <a name="describe"></a> `describe`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### F
+
+#### <a name="fetch_accounts"></a> `fetch_accounts`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_balance"></a> `fetch_balance`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_closed_orders"></a> `fetch_closed_orders`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_currencies"></a> `fetch_currencies`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_deposits"></a> `fetch_deposits`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_markets"></a> `fetch_markets`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_my_trades"></a> `fetch_my_trades`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_ohlcv"></a> `fetch_ohlcv`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_open_orders"></a> `fetch_open_orders`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_open_orders_v1"></a> `fetch_open_orders_v1`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_open_orders_v2"></a> `fetch_open_orders_v2`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_order"></a> `fetch_order`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_order_book"></a> `fetch_order_book`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_order_trades"></a> `fetch_order_trades`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_orders"></a> `fetch_orders`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_orders_by_states"></a> `fetch_orders_by_states`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_ticker"></a> `fetch_ticker`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_tickers"></a> `fetch_tickers`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_time"></a> `fetch_time`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_trades"></a> `fetch_trades`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_trading_limits"></a> `fetch_trading_limits`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_trading_limits_by_id"></a> `fetch_trading_limits_by_id`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="fetch_withdrawals"></a> `fetch_withdrawals`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### H
+
+#### <a name="handle_errors"></a> `handle_errors`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="https---api-doc-bittrade-co-jp"></a> `https://api-doc.bittrade.co.jp`
+
+URL referenced in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="https---coinmarketcap-com"></a> `https://coinmarketcap.com`
+
+URL referenced in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="https---docs-ccxt-com"></a> `https://docs.ccxt.com`
+
+URL referenced in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="https---en-cryptonomist-ch"></a> `https://en.cryptonomist.ch`
+
+URL referenced in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="https---github-com"></a> `https://github.com`
+
+URL referenced in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="https---user-images-githubusercontent-com"></a> `https://user-images.githubusercontent.com`
+
+URL referenced in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="https---www-bittrade-co-jp"></a> `https://www.bittrade.co.jp`
+
+URL referenced in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### I
+
+#### <a name="is"></a> `is`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### P
+
+#### <a name="parse_balance"></a> `parse_balance`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="parse_cancel_orders"></a> `parse_cancel_orders`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="parse_deposit_address"></a> `parse_deposit_address`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="parse_ohlcv"></a> `parse_ohlcv`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="parse_order"></a> `parse_order`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="parse_order_status"></a> `parse_order_status`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="parse_ticker"></a> `parse_ticker`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="parse_trade"></a> `parse_trade`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="parse_trading_limits"></a> `parse_trading_limits`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="parse_transaction"></a> `parse_transaction`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="parse_transaction_status"></a> `parse_transaction_status`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+#### <a name="precision"></a> `precision`
+
+Module imported in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### S
+
+#### <a name="sign"></a> `sign`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+
+
+### W
+
+#### <a name="withdraw"></a> `withdraw`
+
+Identifier defined in python/ccxt/bittrade.py
+
+[Back to file docs](bittrade.py_docs.md)
+

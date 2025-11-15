@@ -1,0 +1,206 @@
+# Documentation: ts/src/test/static/response/bitstamp.json
+
+## File Metadata
+
+- **Path**: `ts/src/test/static/response/bitstamp.json`
+- **Size**: 5,087 bytes
+- **Lines**: 148
+- **Type**: JSON
+- **Extension**: .json
+
+
+## Original Source Code
+
+```json
+{
+    "exchange": "bitstamp",
+    "skipKeys": [],
+    "methods": {
+        "fetchTrades": [
+            {
+                "description": "public spot trades",
+                "method": "fetchTrades",
+                "input": [
+                    "BTC/USDT",
+                    null,
+                    1
+                ],
+                "httpResponse": [
+                    {
+                        "amount": "0.00055284",
+                        "date": "1710327533",
+                        "price": "73254",
+                        "tid": "326595342",
+                        "type": "0"
+                    }
+                ],
+                "parsedResponse": [
+                    {
+                        "id": "326595342",
+                        "info": {
+                            "amount": "0.00055284",
+                            "date": "1710327533",
+                            "price": "73254",
+                            "tid": "326595342",
+                            "type": "0"
+                        },
+                        "timestamp": 1710327533000,
+                        "datetime": "2024-03-13T10:58:53.000Z",
+                        "symbol": "BTC/USDT",
+                        "order": null,
+                        "type": null,
+                        "side": "buy",
+                        "takerOrMaker": null,
+                        "price": 73254,
+                        "amount": 0.00055284,
+                        "cost": 40.49774136,
+                        "fee": {"cost": null, "currency": null },
+                        "fees": []
+                    }
+                ]
+            }
+        ],
+        "fetchTicker": [
+            {
+                "description": "public spot ticker",
+                "method": "fetchTicker",
+                "input": [
+                    "BTC/USDT"
+                ],
+                "httpResponse": {
+                    "timestamp": "1710328241",
+                    "open": "71448",
+                    "high": "73656",
+                    "low": "68626",
+                    "last": "73285",
+                    "volume": "135.29692054",
+                    "vwap": "70853",
+                    "bid": "73353",
+                    "ask": "73367",
+                    "side": "0",
+                    "open_24": "72144",
+                    "percent_change_24": "1.58"
+                },
+                "parsedResponse": {
+                    "symbol": "BTC/USDT",
+                    "timestamp": 1710328241000,
+                    "datetime": "2024-03-13T11:10:41.000Z",
+                    "high": 73656,
+                    "low": 68626,
+                    "bid": 73353,
+                    "bidVolume": null,
+                    "ask": 73367,
+                    "askVolume": null,
+                    "vwap": 70853,
+                    "open": 71448,
+                    "close": 73285,
+                    "last": 73285,
+                    "previousClose": null,
+                    "change": 1837,
+                    "percentage": 2.5711006606203113,
+                    "average": 72366,
+                    "baseVolume": 135.29692054,
+                    "quoteVolume": 9586192.71102062,
+                    "markPrice":  null,
+                    "indexPrice": null,
+                    "info": {
+                        "timestamp": "1710328241",
+                        "open": "71448",
+                        "high": "73656",
+                        "low": "68626",
+                        "last": "73285",
+                        "volume": "135.29692054",
+                        "vwap": "70853",
+                        "bid": "73353",
+                        "ask": "73367",
+                        "side": "0",
+                        "open_24": "72144",
+                        "percent_change_24": "1.58"
+                    }
+                }
+            }
+        ],
+        "fetchOHLCV": [
+            {
+                "description": "public spot ohlcv",
+                "method": "fetchOHLCV",
+                "input": [
+                    "BTC/USDT",
+                    "1h",
+                    null,
+                    1
+                ],
+                "httpResponse": {
+                    "data": {
+                        "pair": "BTC/USDT",
+                        "ohlc": [
+                            {
+                                "timestamp": "1710327600",
+                                "open": "73241",
+                                "high": "73293",
+                                "low": "73240",
+                                "close": "73285",
+                                "volume": "0.01076655"
+                            }
+                        ]
+                    }
+                },
+                "parsedResponse": [
+                    [
+                        1710327600000,
+                        73241,
+                        73293,
+                        73240,
+                        73285,
+                        0.01076655
+                    ]
+                ]
+            }
+        ]
+    }
+}
+
+```
+
+## High-Level Overview
+
+This is a JSON file located at `ts/src/test/static/response/bitstamp.json`.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 148
+- Code lines: 147
+- Comment lines: 0
+- Blank lines: 1
+
+### Main Components
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+This appears to be a test file.
+
+**To run this test:**

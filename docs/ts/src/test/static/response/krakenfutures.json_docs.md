@@ -1,0 +1,514 @@
+# Documentation: ts/src/test/static/response/krakenfutures.json
+
+## File Metadata
+
+- **Path**: `ts/src/test/static/response/krakenfutures.json`
+- **Size**: 20,459 bytes
+- **Lines**: 456
+- **Type**: JSON
+- **Extension**: .json
+
+
+## Original Source Code
+
+```json
+{
+    "exchange": "krakenfutures",
+    "skipKeys": [],
+    "options": {},
+    "methods": {
+        "fetchMyTrades": [
+            {
+                "description": "user trades",
+                "method": "fetchMyTrades",
+                "input": [
+                    null,
+                    null,
+                    2
+                ],
+                "httpResponse": {
+                    "result": "success",
+                    "fills": [
+                        {
+                            "fill_id": "da062bc0-5901-48a5-9bb3-34c6be3ef7a5",
+                            "symbol": "PF_LTCUSD",
+                            "side": "buy",
+                            "order_id": "85805e01-9eed-4395-8360-ed1a228237c9",
+                            "size": "0.1",
+                            "price": "68.54",
+                            "fillTime": "2024-02-06T22:24:34.849Z",
+                            "fillType": "taker"
+                        },
+                        {
+                            "fill_id": "7066466a-9c46-48d6-9c43-3585d48f21a4",
+                            "symbol": "PF_FTMUSD",
+                            "side": "sell",
+                            "order_id": "56e84113-055e-44fd-950b-547113dffa3c",
+                            "size": "1",
+                            "price": "0.50008",
+                            "fillTime": "2023-02-22T12:28:46.816Z",
+                            "fillType": "taker"
+                        }
+                    ],
+                    "serverTime": "2024-02-06T22:25:22.290Z"
+                },
+                "parsedResponse": [
+                    {
+                        "info": {
+                            "fill_id": "7066466a-9c46-48d6-9c43-3585d48f21a4",
+                            "symbol": "PF_FTMUSD",
+                            "side": "sell",
+                            "order_id": "56e84113-055e-44fd-950b-547113dffa3c",
+                            "size": "1",
+                            "price": "0.50008",
+                            "fillTime": "2023-02-22T12:28:46.816Z",
+                            "fillType": "taker"
+                        },
+                        "id": "7066466a-9c46-48d6-9c43-3585d48f21a4",
+                        "symbol": "FTM/USD:USD",
+                        "timestamp": 1677068926816,
+                        "datetime": "2023-02-22T12:28:46.816Z",
+                        "order": "56e84113-055e-44fd-950b-547113dffa3c",
+                        "type": null,
+                        "side": "sell",
+                        "takerOrMaker": "taker",
+                        "price": 0.50008,
+                        "amount": 1,
+                        "cost": 0.50008,
+                        "fee": {"cost": null, "currency": null },
+                        "fees": []
+                    },
+                    {
+                        "info": {
+                            "fill_id": "da062bc0-5901-48a5-9bb3-34c6be3ef7a5",
+                            "symbol": "PF_LTCUSD",
+                            "side": "buy",
+                            "order_id": "85805e01-9eed-4395-8360-ed1a228237c9",
+                            "size": "0.1",
+                            "price": "68.54",
+                            "fillTime": "2024-02-06T22:24:34.849Z",
+                            "fillType": "taker"
+                        },
+                        "id": "da062bc0-5901-48a5-9bb3-34c6be3ef7a5",
+                        "symbol": "LTC/USD:USD",
+                        "timestamp": 1707258274849,
+                        "datetime": "2024-02-06T22:24:34.849Z",
+                        "order": "85805e01-9eed-4395-8360-ed1a228237c9",
+                        "type": null,
+                        "side": "buy",
+                        "takerOrMaker": "taker",
+                        "price": 68.54,
+                        "amount": 0.1,
+                        "cost": 6.854,
+                        "fee": {"cost": null, "currency": null },
+                        "fees": []
+                    }
+                ]
+            }
+        ],
+        "fetchClosedOrders": [
+            {
+                "description": "swap closed order",
+                "method": "fetchClosedOrders",
+                "input": [
+                    "LTC/USD:USD",
+                    null,
+                    1
+                ],
+                "httpResponse": {
+                    "elements": [
+                        {
+                            "uid": "2314da37-c8cb-4c1e-8ac9-4e27c45b2492",
+                            "timestamp": "1761036123057",
+                            "event": {
+                                "OrderPlaced": {
+                                    "order": {
+                                        "uid": "a02a5141-5156-4f62-a992-0f879b5fc989",
+                                        "accountUid": "406142dd-7c5c-4a8b-acbc-5f16eca30009",
+                                        "tradeable": "PF_LTCUSD",
+                                        "direction": "Buy",
+                                        "quantity": "0.1",
+                                        "filled": "0",
+                                        "timestamp": "1761036123057",
+                                        "limitPrice": "50",
+                                        "orderType": "Limit",
+                                        "clientId": "",
+                                        "reduceOnly": false,
+                                        "lastUpdateTimestamp": "1761036123057"
+                                    },
+                                    "reason": "new_user_order",
+                                    "reducedQuantity": "",
+                                    "algoId": "",
+                                    "origin": "Unknown Origin"
+                                }
+                            }
+                        }
+                    ],
+                    "accountUid": "406142dd-7c5c-4a8b-acbc-5f16eca30009",
+                    "len": "1",
+                    "continuationToken": "MTc2MTAzNjAzNjUwNy80MjUxNzI3NDA3NjM="
+                },
+                "parsedResponse": []
+            },
+            {
+                "description": "fetch closed orders",
+                "method": "fetchClosedOrders",
+                "input": [
+                    "LTC/USD:USD",
+                    null,
+                    1
+                ],
+                "httpResponse": {
+                    "elements": [
+                        {
+                            "uid": "43067af0-41e2-4c9b-b35e-fe238d6fba72",
+                            "timestamp": "1707331402406",
+                            "event": {
+                                "OrderPlaced": {
+                                    "order": {
+                                        "uid": "7e10f528-17e3-4b15-a9f2-1a327d509cd6",
+                                        "accountUid": "406142dd-7c5c-4a8b-acbc-5f16eca30009",
+                                        "tradeable": "PF_LTCUSD",
+                                        "direction": "Buy",
+                                        "quantity": "0",
+                                        "filled": "0.1",
+                                        "timestamp": "1707331402406",
+                                        "limitPrice": "68.9600",
+                                        "orderType": "IoC",
+                                        "clientId": "",
+                                        "reduceOnly": false,
+                                        "lastUpdateTimestamp": "1707331402406",
+                                        "status": "closed"
+                                    },
+                                    "reason": "new_user_order",
+                                    "reducedQuantity": "",
+                                    "algoId": ""
+                                }
+                            }
+                        }
+                    ],
+                    "accountUid": "406142dd-7c5c-4a8b-acbc-5f16eca30009",
+                    "len": "1",
+                    "continuationToken": "MTcwNzMzMDk5NTA5Mi8xMzQ0NTIxMDM0MzA="
+                },
+                "parsedResponse": [
+                    {
+                        "info": {
+                            "uid": "7e10f528-17e3-4b15-a9f2-1a327d509cd6",
+                            "accountUid": "406142dd-7c5c-4a8b-acbc-5f16eca30009",
+                            "tradeable": "PF_LTCUSD",
+                            "direction": "Buy",
+                            "quantity": "0",
+                            "filled": "0.1",
+                            "timestamp": "1707331402406",
+                            "limitPrice": "68.9600",
+                            "orderType": "IoC",
+                            "clientId": "",
+                            "reduceOnly": false,
+                            "lastUpdateTimestamp": "1707331402406",
+                            "status": "closed"
+                        },
+                        "id": "7e10f528-17e3-4b15-a9f2-1a327d509cd6",
+                        "clientOrderId": null,
+                        "timestamp": 1707331402406,
+                        "datetime": "2024-02-07T18:43:22.406Z",
+                        "lastTradeTimestamp": null,
+                        "lastUpdateTimestamp": 1707331402406,
+                        "symbol": "LTC/USD:USD",
+                        "type": "market",
+                        "timeInForce": "ioc",
+                        "postOnly": false,
+                        "reduceOnly": false,
+                        "side": "buy",
+                        "price": 68.96,
+                        "stopPrice": null,
+                        "triggerPrice": null,
+                        "amount": 0.1,
+                        "cost": 6.896,
+                        "average": 68.96,
+                        "filled": 0.1,
+                        "remaining": 0,
+                        "status": "closed",
+                        "fee": null,
+                        "fees": [],
+                        "trades": [],
+                        "takeProfitPrice": null,
+                        "stopLossPrice": null
+                    }
+                ]
+            }
+        ],
+        "fetchOpenOrders": [
+            {
+                "description": "open order",
+                "method": "fetchOpenOrders",
+                "input": [
+                    "LTC/USD:USD"
+                ],
+                "httpResponse": {
+                    "result": "success",
+                    "openOrders": [
+                        {
+                            "order_id": "a02a5141-5156-4f62-a992-0f879b5fc989",
+                            "symbol": "PF_LTCUSD",
+                            "side": "buy",
+                            "orderType": "lmt",
+                            "limitPrice": "50",
+                            "unfilledSize": "0.1",
+                            "receivedTime": "2025-10-21T08:42:03.057503Z",
+                            "status": "untouched",
+                            "filledSize": "0",
+                            "lastUpdateTime": "2025-10-21T08:42:03.057503Z",
+                            "reduceOnly": false
+                        }
+                    ],
+                    "serverTime": "2025-10-21T08:44:02.204Z"
+                },
+                "parsedResponse": [
+                    {
+                        "info": {
+                            "order_id": "a02a5141-5156-4f62-a992-0f879b5fc989",
+                            "symbol": "PF_LTCUSD",
+                            "side": "buy",
+                            "orderType": "lmt",
+                            "limitPrice": "50",
+                            "unfilledSize": "0.1",
+                            "receivedTime": "2025-10-21T08:42:03.057503Z",
+                            "status": "untouched",
+                            "filledSize": "0",
+                            "lastUpdateTime": "2025-10-21T08:42:03.057503Z",
+                            "reduceOnly": false
+                        },
+                        "id": "a02a5141-5156-4f62-a992-0f879b5fc989",
+                        "clientOrderId": null,
+                        "timestamp": 1761036123057,
+                        "datetime": "2025-10-21T08:42:03.057Z",
+                        "lastTradeTimestamp": null,
+                        "lastUpdateTimestamp": 1761036123057,
+                        "symbol": "LTC/USD:USD",
+                        "type": "limit",
+                        "timeInForce": "gtc",
+                        "postOnly": false,
+                        "reduceOnly": false,
+                        "side": "buy",
+                        "price": 50,
+                        "triggerPrice": null,
+                        "amount": 0.1,
+                        "cost": 0,
+                        "average": null,
+                        "filled": 0,
+                        "remaining": 0.1,
+                        "status": "open",
+                        "fee": null,
+                        "fees": [],
+                        "trades": [],
+                        "stopPrice": null,
+                        "takeProfitPrice": null,
+                        "stopLossPrice": null
+                    }
+                ]
+            },
+            {
+                "description": "fetch open orders",
+                "method": "fetchOpenOrders",
+                "input": [],
+                "httpResponse": {
+                    "result": "success",
+                    "openOrders": [
+                        {
+                            "order_id": "6e88d923-630d-40aa-af4f-64e5e2b3ad03",
+                            "symbol": "PF_LTCUSD",
+                            "side": "buy",
+                            "orderType": "lmt",
+                            "limitPrice": "50",
+                            "unfilledSize": "0.1",
+                            "receivedTime": "2024-02-08T12:44:12.892Z",
+                            "status": "untouched",
+                            "filledSize": "0",
+                            "reduceOnly": false,
+                            "lastUpdateTime": "2024-02-08T12:44:12.892Z"
+                        }
+                    ],
+                    "serverTime": "2024-02-08T12:44:24.316Z"
+                },
+                "parsedResponse": [
+                    {
+                        "info": {
+                            "order_id": "6e88d923-630d-40aa-af4f-64e5e2b3ad03",
+                            "symbol": "PF_LTCUSD",
+                            "side": "buy",
+                            "orderType": "lmt",
+                            "limitPrice": "50",
+                            "unfilledSize": "0.1",
+                            "receivedTime": "2024-02-08T12:44:12.892Z",
+                            "status": "untouched",
+                            "filledSize": "0",
+                            "reduceOnly": false,
+                            "lastUpdateTime": "2024-02-08T12:44:12.892Z"
+                        },
+                        "id": "6e88d923-630d-40aa-af4f-64e5e2b3ad03",
+                        "clientOrderId": null,
+                        "timestamp": 1707396252892,
+                        "datetime": "2024-02-08T12:44:12.892Z",
+                        "lastTradeTimestamp": null,
+                        "lastUpdateTimestamp": 1707396252892,
+                        "symbol": "LTC/USD:USD",
+                        "type": "limit",
+                        "timeInForce": "gtc",
+                        "postOnly": false,
+                        "reduceOnly": false,
+                        "side": "buy",
+                        "price": 50,
+                        "stopPrice": null,
+                        "triggerPrice": null,
+                        "amount": 0.1,
+                        "cost": 0,
+                        "average": null,
+                        "filled": 0,
+                        "remaining": 0.1,
+                        "status": "open",
+                        "fee": null,
+                        "fees": [],
+                        "trades": [],
+                        "takeProfitPrice": null,
+                        "stopLossPrice": null
+                    }
+                ]
+            }
+        ],
+        "fetchCanceledOrders": [
+            {
+                "description": "fetch canceled orders",
+                "disabled": true,
+                "method": "fetchCanceledOrders",
+                "input": [
+                    "LTC/USD:USD",
+                    null,
+                    1
+                ],
+                "httpResponse": {
+                    "elements": [
+                        {
+                            "uid": "e48699ed-d629-4898-9be8-0075fcc4bf25",
+                            "timestamp": "1707396252892",
+                            "event": {
+                                "OrderPlaced": {
+                                    "order": {
+                                        "uid": "6e88d923-630d-40aa-af4f-64e5e2b3ad03",
+                                        "accountUid": "406142dd-7c5c-4a8b-acbc-5f16eca30009",
+                                        "tradeable": "PF_LTCUSD",
+                                        "direction": "Buy",
+                                        "quantity": "0.1",
+                                        "filled": "0",
+                                        "timestamp": "1707396252892",
+                                        "limitPrice": "50",
+                                        "orderType": "Limit",
+                                        "clientId": "",
+                                        "reduceOnly": false,
+                                        "lastUpdateTimestamp": "1707396252892",
+                                        "status": "canceled"
+                                    },
+                                    "reason": "new_user_order",
+                                    "reducedQuantity": "",
+                                    "algoId": ""
+                                }
+                            }
+                        }
+                    ],
+                    "accountUid": "406142dd-7c5c-4a8b-acbc-5f16eca30009",
+                    "len": "1",
+                    "continuationToken": "MTcwNzMzMTQwMjQwNi8xMzQ0NTI5MjU4Mzg="
+                },
+                "parsedResponse": [
+                    {
+                        "info": {
+                            "uid": "6e88d923-630d-40aa-af4f-64e5e2b3ad03",
+                            "accountUid": "406142dd-7c5c-4a8b-acbc-5f16eca30009",
+                            "tradeable": "PF_LTCUSD",
+                            "direction": "Buy",
+                            "quantity": "0.1",
+                            "filled": "0",
+                            "timestamp": "1707396252892",
+                            "limitPrice": "50",
+                            "orderType": "Limit",
+                            "clientId": "",
+                            "reduceOnly": false,
+                            "lastUpdateTimestamp": "1707396252892",
+                            "status": "canceled"
+                        },
+                        "id": "6e88d923-630d-40aa-af4f-64e5e2b3ad03",
+                        "clientOrderId": null,
+                        "timestamp": null,
+                        "datetime": null,
+                        "lastTradeTimestamp": null,
+                        "lastUpdateTimestamp": null,
+                        "symbol": "LTC/USD:USD",
+                        "type": "limit",
+                        "timeInForce": "gtc",
+                        "postOnly": false,
+                        "reduceOnly": false,
+                        "side": null,
+                        "price": 50,
+                        "stopPrice": null,
+                        "triggerPrice": null,
+                        "amount": 0.1,
+                        "cost": 0,
+                        "average": null,
+                        "filled": 0,
+                        "remaining": 0.1,
+                        "status": "canceled",
+                        "fee": null,
+                        "fees": [],
+                        "trades": [],
+                        "takeProfitPrice": null,
+                        "stopLossPrice": null
+                    }
+                ]
+            }
+        ]
+    }
+}
+```
+
+## High-Level Overview
+
+This is a JSON file located at `ts/src/test/static/response/krakenfutures.json`.
+
+
+
+## Detailed Walkthrough
+
+### Code Structure
+
+- Total lines: 456
+- Code lines: 456
+- Comment lines: 0
+- Blank lines: 0
+
+### Main Components
+
+
+
+## Usage Examples
+
+No explicit usage examples found in the file. Refer to related test files or documentation.
+
+
+
+## Performance & Security Notes
+
+No specific performance or security issues detected.
+
+
+
+## Related Files
+
+No explicit file references found.
+
+
+
+## Testing & Execution
+
+This appears to be a test file.
+
+**To run this test:**

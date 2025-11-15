@@ -1,0 +1,3666 @@
+# Keywords: php/async/Exchange.php
+
+## Extracted Keywords
+
+This file contains 589 keywords extracted from `php/async/Exchange.php`.
+
+
+### A
+
+#### <a name="api"></a> `API`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="apr"></a> `APR`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="are"></a> `ARE`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="aug"></a> `AUG`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### B
+
+#### <a name="bchsv"></a> `BCHSV`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="bear"></a> `BEAR`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="below"></a> `BELOW`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="blvt"></a> `BLVT`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="brc20"></a> `BRC20`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="bsv"></a> `BSV`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="btc"></a> `BTC`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="bull"></a> `BULL`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### C
+
+#### <a name="ccxt"></a> `CCXT`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cors"></a> `CORS`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="crc20"></a> `CRC20`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cro"></a> `CRO`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cronos"></a> `CRONOS`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="curl"></a> `CURL`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### D
+
+#### <a name="dec"></a> `DEC`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="decimal_places"></a> `DECIMAL_PLACES`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="deprecated"></a> `DEPRECATED`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="dns"></a> `DNS`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="down"></a> `DOWN`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### E
+
+#### <a name="erc20"></a> `ERC20`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="eth"></a> `ETH`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="exchange"></a> `Exchange`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### F
+
+#### <a name="feb"></a> `FEB`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fok"></a> `FOK`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="from"></a> `FROM`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### G
+
+#### <a name="get"></a> `GET`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="gtc"></a> `GTC`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### H
+
+#### <a name="headers"></a> `HEADERS`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="http"></a> `HTTP`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### I
+
+#### <a name="ioc"></a> `IOC`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### J
+
+#### <a name="jan"></a> `JAN`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="jul"></a> `JUL`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="jun"></a> `JUN`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### L
+
+#### <a name="line"></a> `LINE`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### M
+
+#### <a name="mar"></a> `MAR`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="max_value"></a> `MAX_VALUE`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="may"></a> `MAY`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="methods"></a> `METHODS`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### N
+
+#### <a name="nov"></a> `NOV`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="no_padding"></a> `NO_PADDING`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### O
+
+#### <a name="oct"></a> `OCT`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="ohlcv"></a> `OHLCV`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="order"></a> `Order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### P
+
+#### <a name="pad_with_zero"></a> `PAD_WITH_ZERO`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="percentage"></a> `PERCENTAGE`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="php"></a> `PHP`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="proxy"></a> `PROXY`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### R
+
+#### <a name="readme"></a> `README`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="round"></a> `ROUND`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="round_down"></a> `ROUND_DOWN`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="round_up"></a> `ROUND_UP`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### S
+
+#### <a name="sep"></a> `SEP`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="significant_digits"></a> `SIGNIFICANT_DIGITS`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="socks"></a> `SOCKS`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### T
+
+#### <a name="t00"></a> `T00`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="this"></a> `THIS`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="tick_size"></a> `TICK_SIZE`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="todo"></a> `TODO`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="transpiled"></a> `TRANSPILED`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="trc20"></a> `TRC20`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="tron"></a> `TRON`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="truncate"></a> `TRUNCATE`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="trx"></a> `TRX`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="typescript"></a> `TYPESCRIPT`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### U
+
+#### <a name="until"></a> `UNTIL`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="url"></a> `URL`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="usdt"></a> `USDT`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### V
+
+#### <a name="version"></a> `VERSION`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### X
+
+#### <a name="xbt"></a> `XBT`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### Y
+
+#### <a name="yymmdd"></a> `YYMMDD`
+
+Constant in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### _
+
+#### <a name="__construct"></a> `__construct`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### A
+
+#### <a name="account"></a> `account`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="add_margin"></a> `add_margin`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="after_construct"></a> `after_construct`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="amount_to_precision"></a> `amount_to_precision`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="and"></a> `and`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="arrays_concat"></a> `arrays_concat`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="assign_default_deposit_withdraw_fees"></a> `assign_default_deposit_withdraw_fees`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="assigned"></a> `assigned`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### B
+
+#### <a name="borrow_cross_margin"></a> `borrow_cross_margin`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="borrow_isolated_margin"></a> `borrow_isolated_margin`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="borrow_margin"></a> `borrow_margin`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="build_ohlcvc"></a> `build_ohlcvc`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### C
+
+#### <a name="calculate_fee"></a> `calculate_fee`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="calculate_fee_with_rate"></a> `calculate_fee_with_rate`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="calculate_rate_limiter_cost"></a> `calculate_rate_limiter_cost`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_all_orders"></a> `cancel_all_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_all_orders_after"></a> `cancel_all_orders_after`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_all_orders_ws"></a> `cancel_all_orders_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_order"></a> `cancel_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_order_with_client_order_id"></a> `cancel_order_with_client_order_id`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_order_ws"></a> `cancel_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_orders"></a> `cancel_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_orders_for_symbols"></a> `cancel_orders_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_orders_with_client_order_ids"></a> `cancel_orders_with_client_order_ids`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_orders_ws"></a> `cancel_orders_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cancel_unified_order"></a> `cancel_unified_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="check_address"></a> `check_address`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="check_conflicting_proxies"></a> `check_conflicting_proxies`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="check_proxy_settings"></a> `check_proxy_settings`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="check_proxy_url_settings"></a> `check_proxy_url_settings`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="check_required_argument"></a> `check_required_argument`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="check_required_credentials"></a> `check_required_credentials`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="check_required_margin_argument"></a> `check_required_margin_argument`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="check_ws_proxy_settings"></a> `check_ws_proxy_settings`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="clean_cache"></a> `clean_cache`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="clean_unsubscription"></a> `clean_unsubscription`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="close_all_positions"></a> `close_all_positions`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="close_position"></a> `close_position`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="common_currency_code"></a> `common_currency_code`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="convert_expire_date"></a> `convert_expire_date`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="convert_expire_date_to_market_id_date"></a> `convert_expire_date_to_market_id_date`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="convert_market_id_expire_date"></a> `convert_market_id_expire_date`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="convert_ohlcv_to_trading_view"></a> `convert_ohlcv_to_trading_view`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="convert_trading_view_to_ohlcv"></a> `convert_trading_view_to_ohlcv`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="convert_type_to_account"></a> `convert_type_to_account`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="cost_to_precision"></a> `cost_to_precision`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_ccxt_trade_id"></a> `create_ccxt_trade_id`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_connector"></a> `create_connector`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_convert_trade"></a> `create_convert_trade`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_deposit_address"></a> `create_deposit_address`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_expired_option_market"></a> `create_expired_option_market`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_limit_buy_order"></a> `create_limit_buy_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_limit_buy_order_ws"></a> `create_limit_buy_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_limit_order"></a> `create_limit_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_limit_order_ws"></a> `create_limit_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_limit_sell_order"></a> `create_limit_sell_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_limit_sell_order_ws"></a> `create_limit_sell_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_market_buy_order"></a> `create_market_buy_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_market_buy_order_with_cost"></a> `create_market_buy_order_with_cost`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_market_buy_order_ws"></a> `create_market_buy_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_market_order"></a> `create_market_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_market_order_with_cost"></a> `create_market_order_with_cost`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_market_order_with_cost_ws"></a> `create_market_order_with_cost_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_market_order_ws"></a> `create_market_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_market_sell_order"></a> `create_market_sell_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_market_sell_order_with_cost"></a> `create_market_sell_order_with_cost`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_market_sell_order_ws"></a> `create_market_sell_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_networks_by_id_object"></a> `create_networks_by_id_object`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_ohlcv_object"></a> `create_ohlcv_object`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_order"></a> `create_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_order_with_take_profit_and_stop_loss"></a> `create_order_with_take_profit_and_stop_loss`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_order_with_take_profit_and_stop_loss_ws"></a> `create_order_with_take_profit_and_stop_loss_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_order_ws"></a> `create_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_orders"></a> `create_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_orders_ws"></a> `create_orders_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_post_only_order"></a> `create_post_only_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_post_only_order_ws"></a> `create_post_only_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_reduce_only_order"></a> `create_reduce_only_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_reduce_only_order_ws"></a> `create_reduce_only_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_stop_limit_order"></a> `create_stop_limit_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_stop_limit_order_ws"></a> `create_stop_limit_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_stop_loss_order"></a> `create_stop_loss_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_stop_loss_order_ws"></a> `create_stop_loss_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_stop_market_order"></a> `create_stop_market_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_stop_market_order_ws"></a> `create_stop_market_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_stop_order"></a> `create_stop_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_stop_order_ws"></a> `create_stop_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_take_profit_order"></a> `create_take_profit_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_take_profit_order_ws"></a> `create_take_profit_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_trailing_amount_order"></a> `create_trailing_amount_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_trailing_amount_order_ws"></a> `create_trailing_amount_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_trailing_percent_order"></a> `create_trailing_percent_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_trailing_percent_order_ws"></a> `create_trailing_percent_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_trigger_order"></a> `create_trigger_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="create_trigger_order_ws"></a> `create_trigger_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="currency"></a> `currency`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="currency_id"></a> `currency_id`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="currency_ids"></a> `currency_ids`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="currency_to_precision"></a> `currency_to_precision`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### D
+
+#### <a name="decode_proto_msg"></a> `decode_proto_msg`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="defaultnetworks"></a> `defaultNetworks`
+
+Module imported in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="default_network_code"></a> `default_network_code`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="delay"></a> `delay`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="deposit_withdraw_fee"></a> `deposit_withdraw_fee`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="describe"></a> `describe`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### E
+
+#### <a name="edit_limit_buy_order"></a> `edit_limit_buy_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="edit_limit_order"></a> `edit_limit_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="edit_limit_sell_order"></a> `edit_limit_sell_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="edit_order"></a> `edit_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="edit_order_with_client_order_id"></a> `edit_order_with_client_order_id`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="edit_order_ws"></a> `edit_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="edit_orders"></a> `edit_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="enable_demo_trading"></a> `enable_demo_trading`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### F
+
+#### <a name="feature_value"></a> `feature_value`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="feature_value_by_type"></a> `feature_value_by_type`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="features_generator"></a> `features_generator`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="features_mapper"></a> `features_mapper`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fee_to_precision"></a> `fee_to_precision`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch"></a> `fetch`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch2"></a> `fetch2`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_accounts"></a> `fetch_accounts`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_all_greeks"></a> `fetch_all_greeks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_balance"></a> `fetch_balance`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_balance_ws"></a> `fetch_balance_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_bids_asks"></a> `fetch_bids_asks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_borrow_interest"></a> `fetch_borrow_interest`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_borrow_rate"></a> `fetch_borrow_rate`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_canceled_and_closed_orders"></a> `fetch_canceled_and_closed_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_closed_orders"></a> `fetch_closed_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_closed_orders_ws"></a> `fetch_closed_orders_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_convert_currencies"></a> `fetch_convert_currencies`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_convert_quote"></a> `fetch_convert_quote`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_convert_trade"></a> `fetch_convert_trade`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_convert_trade_history"></a> `fetch_convert_trade_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_cross_borrow_rate"></a> `fetch_cross_borrow_rate`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_cross_borrow_rates"></a> `fetch_cross_borrow_rates`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_currencies"></a> `fetch_currencies`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_deposit_address"></a> `fetch_deposit_address`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_deposit_addresses"></a> `fetch_deposit_addresses`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_deposit_addresses_by_network"></a> `fetch_deposit_addresses_by_network`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_deposit_withdraw_fee"></a> `fetch_deposit_withdraw_fee`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_deposit_withdraw_fees"></a> `fetch_deposit_withdraw_fees`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_deposits"></a> `fetch_deposits`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_deposits_withdrawals"></a> `fetch_deposits_withdrawals`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_deposits_ws"></a> `fetch_deposits_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_free_balance"></a> `fetch_free_balance`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_funding_history"></a> `fetch_funding_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_funding_interval"></a> `fetch_funding_interval`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_funding_intervals"></a> `fetch_funding_intervals`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_funding_rate"></a> `fetch_funding_rate`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_funding_rate_history"></a> `fetch_funding_rate_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_funding_rates"></a> `fetch_funding_rates`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_greeks"></a> `fetch_greeks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_index_ohlcv"></a> `fetch_index_ohlcv`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_isolated_borrow_rate"></a> `fetch_isolated_borrow_rate`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_isolated_borrow_rates"></a> `fetch_isolated_borrow_rates`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_l2_order_book"></a> `fetch_l2_order_book`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_l3_order_book"></a> `fetch_l3_order_book`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_last_prices"></a> `fetch_last_prices`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_ledger"></a> `fetch_ledger`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_ledger_entry"></a> `fetch_ledger_entry`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_leverage"></a> `fetch_leverage`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_leverage_tiers"></a> `fetch_leverage_tiers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_leverages"></a> `fetch_leverages`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_liquidations"></a> `fetch_liquidations`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_long_short_ratio"></a> `fetch_long_short_ratio`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_long_short_ratio_history"></a> `fetch_long_short_ratio_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_margin_adjustment_history"></a> `fetch_margin_adjustment_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_margin_mode"></a> `fetch_margin_mode`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_margin_modes"></a> `fetch_margin_modes`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_mark_ohlcv"></a> `fetch_mark_ohlcv`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_mark_price"></a> `fetch_mark_price`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_mark_prices"></a> `fetch_mark_prices`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_market_leverage_tiers"></a> `fetch_market_leverage_tiers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_markets"></a> `fetch_markets`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_my_liquidations"></a> `fetch_my_liquidations`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_my_trades"></a> `fetch_my_trades`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_my_trades_ws"></a> `fetch_my_trades_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_ohlcv"></a> `fetch_ohlcv`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_ohlcv_ws"></a> `fetch_ohlcv_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_open_interest"></a> `fetch_open_interest`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_open_interest_history"></a> `fetch_open_interest_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_open_interests"></a> `fetch_open_interests`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_open_orders"></a> `fetch_open_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_open_orders_ws"></a> `fetch_open_orders_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_option"></a> `fetch_option`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_option_chain"></a> `fetch_option_chain`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_order"></a> `fetch_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_order_book"></a> `fetch_order_book`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_order_book_ws"></a> `fetch_order_book_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_order_books"></a> `fetch_order_books`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_order_status"></a> `fetch_order_status`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_order_trades"></a> `fetch_order_trades`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_order_with_client_order_id"></a> `fetch_order_with_client_order_id`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_order_ws"></a> `fetch_order_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_orders"></a> `fetch_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_orders_by_status_ws"></a> `fetch_orders_by_status_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_orders_ws"></a> `fetch_orders_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_paginated_call_cursor"></a> `fetch_paginated_call_cursor`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_paginated_call_deterministic"></a> `fetch_paginated_call_deterministic`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_paginated_call_dynamic"></a> `fetch_paginated_call_dynamic`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_paginated_call_incremental"></a> `fetch_paginated_call_incremental`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_partial_balance"></a> `fetch_partial_balance`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_payment_methods"></a> `fetch_payment_methods`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_position"></a> `fetch_position`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_position_history"></a> `fetch_position_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_position_mode"></a> `fetch_position_mode`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_position_ws"></a> `fetch_position_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_positions"></a> `fetch_positions`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_positions_for_symbol"></a> `fetch_positions_for_symbol`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_positions_for_symbol_ws"></a> `fetch_positions_for_symbol_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_positions_history"></a> `fetch_positions_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_positions_risk"></a> `fetch_positions_risk`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_positions_ws"></a> `fetch_positions_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_premium_index_ohlcv"></a> `fetch_premium_index_ohlcv`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_rest_order_book_safe"></a> `fetch_rest_order_book_safe`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_status"></a> `fetch_status`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_ticker"></a> `fetch_ticker`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_ticker_ws"></a> `fetch_ticker_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_tickers"></a> `fetch_tickers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_tickers_ws"></a> `fetch_tickers_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_time"></a> `fetch_time`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_total_balance"></a> `fetch_total_balance`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_trades"></a> `fetch_trades`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_trades_ws"></a> `fetch_trades_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_trading_fee"></a> `fetch_trading_fee`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_trading_fees"></a> `fetch_trading_fees`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_trading_fees_ws"></a> `fetch_trading_fees_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_trading_limits"></a> `fetch_trading_limits`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_transaction_fee"></a> `fetch_transaction_fee`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_transaction_fees"></a> `fetch_transaction_fees`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_transactions"></a> `fetch_transactions`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_transfer"></a> `fetch_transfer`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_transfers"></a> `fetch_transfers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_unified_order"></a> `fetch_unified_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_used_balance"></a> `fetch_used_balance`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_web_endpoint"></a> `fetch_web_endpoint`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_withdrawals"></a> `fetch_withdrawals`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="fetch_withdrawals_ws"></a> `fetch_withdrawals_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="filter_by_array"></a> `filter_by_array`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="filter_by_array_positions"></a> `filter_by_array_positions`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="filter_by_array_tickers"></a> `filter_by_array_tickers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="filter_by_currency_since_limit"></a> `filter_by_currency_since_limit`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="filter_by_limit"></a> `filter_by_limit`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="filter_by_since_limit"></a> `filter_by_since_limit`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="filter_by_symbol"></a> `filter_by_symbol`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="filter_by_symbol_since_limit"></a> `filter_by_symbol_since_limit`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="filter_by_symbols_since_limit"></a> `filter_by_symbols_since_limit`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="filter_by_value_since_limit"></a> `filter_by_value_since_limit`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="find_broadly_matched_key"></a> `find_broadly_matched_key`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="find_message_hashes"></a> `find_message_hashes`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="find_nearest_ceiling"></a> `find_nearest_ceiling`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="find_timeframe"></a> `find_timeframe`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="force_string"></a> `force_string`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="from"></a> `from`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### G
+
+#### <a name="get_cache_index"></a> `get_cache_index`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="get_default_options"></a> `get_default_options`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="get_describe_for_extended_ws_exchange"></a> `get_describe_for_extended_ws_exchange`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="get_list_from_object_values"></a> `get_list_from_object_values`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="get_market_from_symbols"></a> `get_market_from_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="get_supported_mapping"></a> `get_supported_mapping`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="get_symbols_for_market_type"></a> `get_symbols_for_market_type`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### H
+
+#### <a name="handle_delta"></a> `handle_delta`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_deltas"></a> `handle_deltas`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_deltas_with_keys"></a> `handle_deltas_with_keys`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_errors"></a> `handle_errors`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_margin_mode_and_params"></a> `handle_margin_mode_and_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_market_type_and_params"></a> `handle_market_type_and_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_max_entries_per_request_and_params"></a> `handle_max_entries_per_request_and_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_network_code_and_params"></a> `handle_network_code_and_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_option"></a> `handle_option`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_option_and_params"></a> `handle_option_and_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_option_and_params_2"></a> `handle_option_and_params_2`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_param_bool"></a> `handle_param_bool`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_param_bool_2"></a> `handle_param_bool_2`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_param_integer"></a> `handle_param_integer`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_param_integer_2"></a> `handle_param_integer_2`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_param_string"></a> `handle_param_string`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_param_string_2"></a> `handle_param_string_2`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_post_only"></a> `handle_post_only`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_request_network"></a> `handle_request_network`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_sub_type_and_params"></a> `handle_sub_type_and_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_time_in_force"></a> `handle_time_in_force`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_trigger_and_params"></a> `handle_trigger_and_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_trigger_direction_and_params"></a> `handle_trigger_direction_and_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_trigger_prices_and_params"></a> `handle_trigger_prices_and_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_until_option"></a> `handle_until_option`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="handle_withdraw_tag_and_params"></a> `handle_withdraw_tag_and_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="https---docs-ccxt-com"></a> `https://docs.ccxt.com`
+
+URL referenced in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="https---github-com"></a> `https://github.com`
+
+URL referenced in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="https---www-binance-com"></a> `https://www.binance.com`
+
+URL referenced in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### I
+
+#### <a name="if"></a> `if`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="implode_hostname"></a> `implode_hostname`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="init_rest_rate_limiter"></a> `init_rest_rate_limiter`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="init_throttler"></a> `init_throttler`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="integer_precision_to_amount"></a> `integer_precision_to_amount`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="invert_flat_string_dictionary"></a> `invert_flat_string_dictionary`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="is"></a> `is`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="is_binary_message"></a> `is_binary_message`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="is_decimal_precision"></a> `is_decimal_precision`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="is_leveraged_currency"></a> `is_leveraged_currency`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="is_post_only"></a> `is_post_only`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="is_round_number"></a> `is_round_number`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="is_significant_precision"></a> `is_significant_precision`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="is_tick_precision"></a> `is_tick_precision`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="is_trigger_order"></a> `is_trigger_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### L
+
+#### <a name="loadaccounts"></a> `loadAccounts`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="loadmarkets"></a> `loadMarkets`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="load_accounts"></a> `load_accounts`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="load_markets"></a> `load_markets`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="load_markets_helper"></a> `load_markets_helper`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="load_time_difference"></a> `load_time_difference`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="load_trading_limits"></a> `load_trading_limits`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### M
+
+#### <a name="market"></a> `market`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="market_codes"></a> `market_codes`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="market_id"></a> `market_id`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="market_ids"></a> `market_ids`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="market_or_null"></a> `market_or_null`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="market_symbols"></a> `market_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="markets_for_symbols"></a> `markets_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### N
+
+#### <a name="needs"></a> `needs`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="network_code_to_id"></a> `network_code_to_id`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="network_id_to_code"></a> `network_id_to_code`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="nonce"></a> `nonce`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### O
+
+#### <a name="oath"></a> `oath`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="order"></a> `order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="orderbook_checksum_message"></a> `orderbook_checksum_message`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### P
+
+#### <a name="parse_account"></a> `parse_account`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_accounts"></a> `parse_accounts`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_all_greeks"></a> `parse_all_greeks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_balance"></a> `parse_balance`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_bid_ask"></a> `parse_bid_ask`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_bids_asks"></a> `parse_bids_asks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_borrow_interest"></a> `parse_borrow_interest`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_borrow_interests"></a> `parse_borrow_interests`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_borrow_rate"></a> `parse_borrow_rate`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_borrow_rate_history"></a> `parse_borrow_rate_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_conversion"></a> `parse_conversion`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_conversions"></a> `parse_conversions`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_currencies"></a> `parse_currencies`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_currency"></a> `parse_currency`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_deposit_address"></a> `parse_deposit_address`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_deposit_addresses"></a> `parse_deposit_addresses`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_deposit_withdraw_fee"></a> `parse_deposit_withdraw_fee`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_deposit_withdraw_fees"></a> `parse_deposit_withdraw_fees`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_fee_numeric"></a> `parse_fee_numeric`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_funding_rate"></a> `parse_funding_rate`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_funding_rate_histories"></a> `parse_funding_rate_histories`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_funding_rate_history"></a> `parse_funding_rate_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_funding_rates"></a> `parse_funding_rates`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_greeks"></a> `parse_greeks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_income"></a> `parse_income`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_incomes"></a> `parse_incomes`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_isolated_borrow_rate"></a> `parse_isolated_borrow_rate`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_isolated_borrow_rates"></a> `parse_isolated_borrow_rates`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_last_price"></a> `parse_last_price`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_last_prices"></a> `parse_last_prices`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ledger"></a> `parse_ledger`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ledger_entry"></a> `parse_ledger_entry`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_leverage"></a> `parse_leverage`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_leverage_tiers"></a> `parse_leverage_tiers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_leverages"></a> `parse_leverages`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_liquidation"></a> `parse_liquidation`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_liquidations"></a> `parse_liquidations`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_long_short_ratio"></a> `parse_long_short_ratio`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_long_short_ratio_history"></a> `parse_long_short_ratio_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_margin_mode"></a> `parse_margin_mode`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_margin_modes"></a> `parse_margin_modes`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_margin_modification"></a> `parse_margin_modification`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_margin_modifications"></a> `parse_margin_modifications`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_market"></a> `parse_market`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_market_leverage_tiers"></a> `parse_market_leverage_tiers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_markets"></a> `parse_markets`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ohlcv"></a> `parse_ohlcv`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ohlcvs"></a> `parse_ohlcvs`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_open_interest"></a> `parse_open_interest`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_open_interests"></a> `parse_open_interests`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_open_interests_history"></a> `parse_open_interests_history`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_option"></a> `parse_option`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_option_chain"></a> `parse_option_chain`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_order"></a> `parse_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_order_book"></a> `parse_order_book`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_orders"></a> `parse_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_position"></a> `parse_position`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_positions"></a> `parse_positions`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_precision"></a> `parse_precision`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ticker"></a> `parse_ticker`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_tickers"></a> `parse_tickers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_to_int"></a> `parse_to_int`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_to_numeric"></a> `parse_to_numeric`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_trade"></a> `parse_trade`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_trades"></a> `parse_trades`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_trades_helper"></a> `parse_trades_helper`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_trading_view_ohlcv"></a> `parse_trading_view_ohlcv`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_transaction"></a> `parse_transaction`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_transactions"></a> `parse_transactions`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_transfer"></a> `parse_transfer`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_transfers"></a> `parse_transfers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ws_ohlcv"></a> `parse_ws_ohlcv`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ws_ohlcvs"></a> `parse_ws_ohlcvs`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ws_order"></a> `parse_ws_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ws_order_trade"></a> `parse_ws_order_trade`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ws_trade"></a> `parse_ws_trade`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parse_ws_trades"></a> `parse_ws_trades`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="parsed_fee_and_fees"></a> `parsed_fee_and_fees`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="price_to_precision"></a> `price_to_precision`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### R
+
+#### <a name="reduce_fees_by_currency"></a> `reduce_fees_by_currency`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="reduce_margin"></a> `reduce_margin`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="remove_keys_from_dict"></a> `remove_keys_from_dict`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="remove_repeated_elements_from_array"></a> `remove_repeated_elements_from_array`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="remove_repeated_trades_from_array"></a> `remove_repeated_trades_from_array`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="repay_cross_margin"></a> `repay_cross_margin`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="repay_isolated_margin"></a> `repay_isolated_margin`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="repay_margin"></a> `repay_margin`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="request"></a> `request`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="resolve_path"></a> `resolve_path`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### S
+
+#### <a name="safe_balance"></a> `safe_balance`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_bool"></a> `safe_bool`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_bool_2"></a> `safe_bool_2`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_bool_n"></a> `safe_bool_n`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_currency"></a> `safe_currency`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_currency_code"></a> `safe_currency_code`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_currency_structure"></a> `safe_currency_structure`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_deterministic_call"></a> `safe_deterministic_call`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_dict"></a> `safe_dict`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_dict_2"></a> `safe_dict_2`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_dict_n"></a> `safe_dict_n`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_integer_omit_zero"></a> `safe_integer_omit_zero`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_ledger_entry"></a> `safe_ledger_entry`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_liquidation"></a> `safe_liquidation`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_list"></a> `safe_list`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_list_2"></a> `safe_list_2`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_list_n"></a> `safe_list_n`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_market"></a> `safe_market`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_market_structure"></a> `safe_market_structure`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_number"></a> `safe_number`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_number_2"></a> `safe_number_2`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_number_n"></a> `safe_number_n`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_number_omit_zero"></a> `safe_number_omit_zero`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_open_interest"></a> `safe_open_interest`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_order"></a> `safe_order`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_position"></a> `safe_position`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_symbol"></a> `safe_symbol`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_ticker"></a> `safe_ticker`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="safe_trade"></a> `safe_trade`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="select_network_code_from_unified_networks"></a> `select_network_code_from_unified_networks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="select_network_id_from_raw_networks"></a> `select_network_id_from_raw_networks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="select_network_key_from_networks"></a> `select_network_key_from_networks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="setproxyagents"></a> `setProxyAgents`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="set_headers"></a> `set_headers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="set_leverage"></a> `set_leverage`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="set_margin"></a> `set_margin`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="set_margin_mode"></a> `set_margin_mode`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="set_markets"></a> `set_markets`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="set_markets_from_exchange"></a> `set_markets_from_exchange`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="set_position_mode"></a> `set_position_mode`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="set_request_browser"></a> `set_request_browser`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="set_sandbox_mode"></a> `set_sandbox_mode`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="set_take_profit_and_stop_loss_params"></a> `set_take_profit_and_stop_loss_params`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="sign"></a> `sign`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="sign_in"></a> `sign_in`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="since"></a> `since`
+
+Module imported in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="sleep"></a> `sleep`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="sort_cursor_paginated_result"></a> `sort_cursor_paginated_result`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="spawn"></a> `spawn`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="symbol"></a> `symbol`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### T
+
+#### <a name="takes"></a> `takes`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="throttle"></a> `throttle`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="throw_broadly_matched_exception"></a> `throw_broadly_matched_exception`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="throw_exactly_matched_exception"></a> `throw_exactly_matched_exception`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="transfer"></a> `transfer`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### U
+
+#### <a name="un_watch_bids_asks"></a> `un_watch_bids_asks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_mark_price"></a> `un_watch_mark_price`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_mark_prices"></a> `un_watch_mark_prices`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_my_trades"></a> `un_watch_my_trades`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_ohlcv"></a> `un_watch_ohlcv`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_ohlcv_for_symbols"></a> `un_watch_ohlcv_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_order_book"></a> `un_watch_order_book`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_order_book_for_symbols"></a> `un_watch_order_book_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_orders"></a> `un_watch_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_positions"></a> `un_watch_positions`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_ticker"></a> `un_watch_ticker`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_tickers"></a> `un_watch_tickers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_trades"></a> `un_watch_trades`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="un_watch_trades_for_symbols"></a> `un_watch_trades_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="url_encoder_for_proxy_url"></a> `url_encoder_for_proxy_url`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+
+### W
+
+#### <a name="watch_balance"></a> `watch_balance`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_bids_asks"></a> `watch_bids_asks`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_funding_rate"></a> `watch_funding_rate`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_funding_rates"></a> `watch_funding_rates`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_funding_rates_for_symbols"></a> `watch_funding_rates_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_liquidations"></a> `watch_liquidations`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_liquidations_for_symbols"></a> `watch_liquidations_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_mark_price"></a> `watch_mark_price`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_mark_prices"></a> `watch_mark_prices`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_my_liquidations"></a> `watch_my_liquidations`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_my_liquidations_for_symbols"></a> `watch_my_liquidations_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_my_trades"></a> `watch_my_trades`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_my_trades_for_symbols"></a> `watch_my_trades_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_ohlcv"></a> `watch_ohlcv`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_ohlcv_for_symbols"></a> `watch_ohlcv_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_order_book"></a> `watch_order_book`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_order_book_for_symbols"></a> `watch_order_book_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_orders"></a> `watch_orders`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_orders_for_symbols"></a> `watch_orders_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_position"></a> `watch_position`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_position_for_symbols"></a> `watch_position_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_positions"></a> `watch_positions`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_ticker"></a> `watch_ticker`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_tickers"></a> `watch_tickers`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_trades"></a> `watch_trades`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="watch_trades_for_symbols"></a> `watch_trades_for_symbols`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="withdraw"></a> `withdraw`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
+#### <a name="withdraw_ws"></a> `withdraw_ws`
+
+Identifier defined in php/async/Exchange.php
+
+[Back to file docs](Exchange.php_docs.md)
+
